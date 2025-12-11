@@ -1,2 +1,2 @@
 # MicroCenterLLM
-LLM for MicroCenter for user to search quickly and efficiently
+LLM for MicroCenter for users  to search quickly and efficiently
