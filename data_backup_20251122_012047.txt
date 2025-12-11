@@ -1,0 +1,169 @@
+
+--- Source: Sample-QA ---
+Question: What's the difference between DDR4 and DDR5 RAM?
+
+Answer: DDR5 RAM offers higher speeds (up to 6400MHz+) compared to DDR4 (typically 2133-3200MHz). DDR5 also has improved power efficiency with lower voltage (1.1V vs 1.2V) and higher bandwidth. However, DDR5 typically has higher latency and is more expensive. For most gaming and everyday use, DDR4 is still excellent value.
+
+
+
+--- Source: Sample-QA ---
+Question: How much power supply wattage do I need for an RTX 4090?
+
+Answer: NVIDIA recommends an 850W power supply for the RTX 4090, but many users opt for 1000W or higher for headroom and efficiency. The 4090 has a 450W TDP, so you need to account for your CPU (100-250W), motherboard, drives, and other components. A quality 1000W PSU from brands like Corsair, EVGA, or Seasonic is recommended.
+
+
+
+--- Source: Sample-QA ---
+Question: Is 16GB RAM enough for gaming in 2024?
+
+Answer: 16GB RAM is still adequate for most gaming in 2024, but 32GB is becoming the recommended amount for new builds. Some modern games like Star Citizen, Cyberpunk 2077, and flight simulators can use more than 16GB. If you multitask (gaming while streaming/browsing), 32GB provides much better headroom. DDR4 16GB kits are affordable, making 32GB a good value upgrade.
+
+
+
+--- Source: Sample-QA ---
+Question: What CPU should I pair with an RTX 4070?
+
+Answer: For an RTX 4070, good CPU pairings include: Intel Core i5-13600K or i5-14600K for excellent gaming performance, AMD Ryzen 5 7600X or 7700X for great value, or Intel Core i7-13700K/i7-14700K if you also do productivity work. Avoid pairing with older CPUs like the i5-10400 or Ryzen 3600 as they may bottleneck the GPU in CPU-intensive games at 1080p.
+
+
+
+--- Source: Sample-QA ---
+Question: Do I need a CPU cooler or can I use the stock one?
+
+Answer: Intel K-series CPUs and AMD Ryzen 5 7600X and above don't include stock coolers. Intel non-K chips include basic coolers that work but are loud under load. AMD's stock coolers (Wraith) are better but still noisy. For best results, invest in a tower cooler like the Thermalright Peerless Assassin 120 ($35) or Arctic Freezer 34 eSports. High-end CPUs benefit from 280mm+ AIOs.
+
+
+
+--- Source: Wikipedia-Graphics_processing_unit ---
+Article: Graphics processing unit
+
+Agraphics processing unit(GPU) is a specializedelectronic circuitdesigned fordigital image processingand to acceleratecomputer graphics, being present either as a component on a discretegraphics cardor embedded onmotherboards,mobile phones,personal computers,workstations, andgame consoles. GPUs were later found to be useful for non-graphic calculations involvingembarrassingly parallelproblems due to theirparallel structure. The ability of GPUs to rapidly perform vast numbers of calculations has led to their adoption in diverse fields includingartificial intelligence(AI) where they excel at handling data-intensive and computationally demanding tasks. Other non-graphical uses include the training ofneural networksandcryptocurrency mining.
+
+Arcade system boardshave used specialized graphics circuits since the 1970s. In early video game hardware,RAMfor frame buffers was expensive, so video chips composited data together as the display was being scanned out on the monitor.[1]
+
+A specializedbarrel shiftercircuit helped the CPU animate theframebuffergraphics for various 1970sarcade video gamesfromMidwayandTaito, such asGun Fight(1975),Sea Wolf(1976), andSpace Invaders(1978).[2]TheNamco Galaxianarcade system in 1979 used specializedgraphics hardwarethat supportedRGB color, multi-colored sprites, andtilemapbackgrounds.[3]The Galaxian hardware was widely used during thegolden age of arcade video games, by game companies such asNamco,Centuri,Gremlin,Irem,Konami, Midway,Nichibutsu,Sega, and Taito.[4]
+
+TheAtari 2600in 1977 used a video shifter called theTelevision Interface Adaptor.[5]Atari 8-bit computers(1979) hadANTIC, a video processor which interpreted instructions describing a "display list"—the way the scan lines map to specificbitmappedor character modes and where the memory is stored (so there did not need to be a contiguous frame buffer).[clarification needed][6]6502machine codesubroutinescould be triggered onscan linesby setting a bit on a display list instruction.[clarification needed][7]ANTIC also supported smoothverticalandhorizontal scrollingindependent of the CPU.[8]
+
+TheNEC μPD7220was the first implementation of apersonal computergraphics display processor as a singlelarge-scale integration(LSI)integrated circuitchip. This enabled the design of low-cost, high-performance video graphics cards such as those fromNumber Nine Visual Technology. It became the best-known GPU until the mid-1980s.[9]It was the first fully integratedVLSI(very large-scale integration)metal–oxide–semiconductor(NMOS) graphics display processor for PCs, supported up to1024×1024 resolution, and laid the foundations for the PC graphics market. It was used in a number of graphics cards and was licensed for clones such as the Intel 82720, the first ofIntel's graphics processing units.[10]TheWilliams Electronicsarcade gamesRobotron: 2084,Joust,Sinistar, andBubbles, all released in 1982, contain customblitterchips for operating on 16-color bitmaps.[11][12]
+
+In 1984,Hitachireleased the ARTC HD63484, the first majorCMOSgraphics processor for personal computers. The ARTC could display up to4K resolutionwhen inmonochromemode. It was used in a number of graphics cards and terminals during the late 1980s.[13]In 1985, theAmigawas released with a custom graphics chip including a blitter for bitmap manipulation, line drawing, and area fill. It also included acoprocessorwith its own simple instruction set, that was capable of manipulating graphics hardware registers in sync with the video beam (e.g. for per-scanline palette switches,sprite multiplexing, and hardware windowing), or driving the blitter. In 1986,Texas Instrumentsreleased theTMS34010, the first fully programmable graphics processor.[14]It could run general-purpose code but also had a graphics-oriented instruction set. During 1990–1992, this chip became the basis of theTexas Instruments Graphics Architecture("TIGA")Windows acceleratorcards.
+
+In 1987, theIBM 8514graphics system was released. It was one of the first video cards forIBM PC compatiblesthat implementedfixed-function2D primitives inelectronic hardware.Sharp'sX68000, released in 1987, used a custom graphics chipset[15]with a 65,536 color palette and hardware support for sprites, scrolling, and multiple playfields.[16]It served as a development machine forCapcom'sCP Systemarcade board. Fujitsu'sFM Townscomputer, released in 1989, had support for a 16,777,216 color palette.[17]In 1988, the first dedicatedpolygonal 3Dgraphics boards were introduced in arcades with theNamco System 21[18]andTaitoAir System.[19]
+
+IBMintroduced itsproprietaryVideo Graphics Array(VGA) display standard in 1987, with a maximum resolution of 640×480 pixels. In November 1988,NEC Home Electronicsannounced its creation of theVideo Electronics Standards Association(VESA) to develop and promote aSuper VGA(SVGA)computer display standardas a successor to VGA. Super VGA enabledgraphics display resolutionsup to 800×600pixels, a 56% increase.[20]
+
+In 1991,S3 Graphicsintroduced theS3 86C911, which its designers named after thePorsche 911as an indication of the performance increase it promised.[21]The 86C911 spawned a variety of imitators: by 1995, all major PC graphics chip makers had added2Dacceleration support to their chips.[22]Fixed-functionWindows acceleratorssurpassed expensive general-purpose graphics coprocessors in Windows performance, and such coprocessors faded from the PC market.
+
+In the early- and mid-1990s,real-time3D graphics became increasingly common in arcade, computer, and console games, which led to increasing public demand for hardware-accelerated 3D graphics. Early examples of mass-market 3D graphics hardware can be found in arcade system boards such as theSega Model 1,Namco System 22, andSega Model 2, and thefifth-generation video game consolessuch as theSaturn,PlayStation, andNintendo 64. Arcade systems such as the Sega Model 2 andSGIOnyx-based Namco Magic Edge Hornet Simulator in 1993 were capable of hardware T&L (transform, clipping, and lighting) years before appearing in consumer graphics cards.[23][24]Another early example is theSuper FXchip, aRISC-basedon-cartridge graphics chipused in someSNESgames, notablyDoomandStar Fox. Some systems usedDSPsto accelerate transformations.Fujitsu, which worked on the Sega Model 2 arcade system,[25]began working on integrating T&L into a singleLSIsolution for use in home computers in 1995;[26]the Fujitsu Pinolite, the first 3D geometry processor for personal computers, announced in 1997.[27]The first hardware T&L GPU onhomevideo game consoleswas theNintendo 64'sReality Coprocessor, released in 1996.[28]In 1997,Mitsubishireleased the3Dpro/2MP, a GPU capable of transformation and lighting, forworkstationsandWindows NTdesktops;[29]ATiused it for itsFireGL 4000graphics card, released in 1997.[30]
+
+
+--- Source: Wikipedia-Central_processing_unit ---
+Article: Central processing unit
+
+Acentral processing unit(CPU), also called acentral processor,main processor, or justprocessor, is the primaryprocessorin a givencomputer.[1][2]Itselectronic circuitryexecutesinstructionsof acomputer program, such asarithmetic, logic, controlling, andinput/output(I/O) operations.[3][4][5]This role contrasts with that of external components, such asmain memoryand I/O circuitry,[6]and specializedcoprocessorssuch asgraphics processing units(GPUs).
+
+The form,design, and implementation of CPUs have changed over time, but their fundamental operation remains almost unchanged.[7]Principal components of a CPU include thearithmetic–logic unit(ALU) that performsarithmeticandlogic operations,processor registersthat supplyoperandsto the ALU and store the results of ALU operations, and acontrol unitthat orchestrates thefetching (from memory),decodingandexecution (of instructions)by directing the coordinated operations of the ALU, registers, and other components. Modern CPUs devote a lot of semiconductor area tocachesandinstruction-level parallelismto increase performance and toCPU modesto supportoperating systemsandvirtualization.
+
+Most modern CPUs are implemented onintegrated circuitmicroprocessors, with one or more CPUs on a single IC chip. Microprocessor chips with multiple CPUs are calledmulti-core processors(MCP).[8]The individual physical CPUs, calledprocessor cores, can also bemultithreadedto support CPU-level multithreading.[9]
+
+An IC that contains a CPU may also containmemory,peripheralinterfaces, and other components of a computer;[10]such integrated devices are variously calledmicrocontrollersorsystems on a chip(SoC).
+
+Early computers such as theENIAChad to be physically rewired to perform different tasks, which caused these machines to be called "fixed-program computers".[11]The "central processing unit" term has been in use since as early as 1955.[12][13]Since the term "CPU" is generally defined as a device forsoftware(computer program) execution, the earliest devices that could rightly be called CPUs came with the advent of thestored-program computer.
+
+The idea of a stored-program computer had already been present in the design ofJohn Presper EckertandJohn William Mauchly'sENIAC, but was initially omitted so that it could be finished sooner.[14]On June 30, 1945, before ENIAC was made, mathematicianJohn von Neumanndistributed a paper entitledFirst Draft of a Report on the EDVAC. It was the outline of a stored-program computer that would eventually be completed in August 1949.[15]EDVACwas designed to perform a certain number of instructions (or operations) of various types. Significantly, the programs written for EDVAC were to be stored in high-speedcomputer memoryrather than specified by the physical wiring of the computer.[16]This overcame a severe limitation of ENIAC, which was the considerable time and effort required to reconfigure the computer to perform a new task.[17]With von Neumann's design, the program that EDVAC ran could be changed simply by changing the contents of the memory. EDVAC was not the first stored-program computer; theManchester Baby, which was a small-scale experimental stored-program computer, ran its first program on 21 June 1948[18]and theManchester Mark 1ran its first program during the night of 16–17 June 1949.[19]
+
+Early CPUs were custom designs used as part of a larger and sometimes distinctive computer.[20]However, this method of designing custom CPUs for a particular application has largely given way to the development of multi-purpose processors produced in large quantities. This standardization began in the era of discretetransistormainframesandminicomputers, and has rapidly accelerated with the popularization of theintegrated circuit(IC). The IC has allowed increasingly complex CPUs to be designed and manufactured to tolerances on the order ofnanometers.[21]Both the miniaturization and standardization of CPUs have increased the presence of digital devices in modern life far beyond the limited application of dedicated computing machines. Modern microprocessors appear in electronic devices ranging from automobiles[22]to cellphones,[23]and sometimes even in toys.[24][25]
+
+While von Neumann is most often credited with the design of the stored-program computer because of his design of EDVAC, and the design became known as thevon Neumann architecture, others before him, such asKonrad Zuse, had suggested and implemented similar ideas.[26]The so-calledHarvard architectureof theHarvard Mark I, which was completed before EDVAC,[27][28]also used a stored-program design usingpunched paper taperather than electronic memory.[29]The key difference between the two is that Harvard architecture separates the storage and treatment of CPU instructions and data, whereas von Neumann architecture uses the same memory space for both.[30]Most modern CPUs are primarily von Neumann in design, but CPUs with the Harvard architecture are seen as well, especially in embedded applications; for instance, theAtmel AVRmicrocontrollers are Harvard-architecture processors.[31]
+
+Prior to the invention of the transistor,relaysandvacuum tubes(thermionic tubes) were commonly used as switching elements;[32][33]a useful computer requires thousands or tens of thousands of switching devices. The overall speed of a system is dependent on the speed of the switches.Vacuum-tube computerssuch as EDVAC tended to average eight hours between failures, whereas relay computers—such as the slower but earlierHarvard Mark I—failed very rarely.[13]In the end, tube-based CPUs became dominant because the significant speed advantages afforded generally outweighed the reliability problems. Most of these early synchronous CPUs ran at lowclock ratescompared to modern microelectronic designs. Clock signal frequencies ranging from 100kHzto 4 MHz were very common at this time, limited largely by the speed of the switching devices they were built with.[34]
+
+The design complexity of CPUs increased as various technologies facilitated the building of smaller and more reliable electronic devices. The first such improvement came with the advent of thetransistor. Transistorized CPUs during the 1950s and 1960s no longer had to be built out of bulky, unreliable, and fragile switching elements, likevacuum tubesandrelays.[35]With this improvement, more complex and reliable CPUs were built onto one or severalprinted circuit boardscontaining discrete (individual) components.
+
+
+--- Source: Wikipedia-Random-access_memory ---
+Article: Random-access memory
+
+Random-access memory(RAM;/ræm/) is a form ofelectronic computer memorythat can be read and changed in any order, typically used to store workingdataandmachine code.[1][2]Arandom-accessmemory device allows data items to bereador written in almost the same amount of time irrespective of the physical location of data inside the memory, in contrast with other direct-access data storage media (such ashard disksandmagnetic tape), where the time required to read and write data items varies significantly depending on their physical locations on the recording medium, due to mechanical limitations such as media rotation speeds and arm movement.
+
+In modern technology, random-access memory takes the form ofintegrated circuit(IC) chips withMOS(metal–oxide–semiconductor)memory cells. RAM is normally associated withvolatiletypes of memory where stored information is lost if power is removed. The two main types of volatile random-accesssemiconductor memoryarestatic random-access memory(SRAM) anddynamic random-access memory(DRAM).
+
+Non-volatile RAM has also been developed[3]and other types ofnon-volatile memoriesallow random access for read operations, but either do not allow write operations or have other kinds of limitations. These include most types ofROMandNOR flash memory.
+
+The use of semiconductor RAM dates back to 1965 when IBM introduced the monolithic (single-chip) 16-bit SP95 SRAM chip for theirSystem/360 Model 95computer, andToshibaused bipolar DRAM memory cells for its 180-bit Toscal BC-1411electronic calculator, both based onbipolar transistors. While it offered higher speeds thanmagnetic-core memory, bipolar DRAM could not compete with the lower price of the then-dominant magnetic-core memory.[4]In 1966, Dr.Robert Dennardinvented modern DRAM architecture in which there's a single MOS transistor per capacitor.[5]The first commercial DRAM IC chip, the 1KIntel 1103, was introduced in October 1970.Synchronous dynamic random-access memory(SDRAM) was reintroduced with theSamsungKM48SL2000 chip in 1992.
+
+Early computers usedrelays,mechanical counters[6]ordelay linesfor main memory functions. Ultrasonic delay lines wereserial deviceswhich could only reproduce data in the order it was written.Drum memorycould be expanded at relatively low cost but efficient retrieval of memory items requires knowledge of the physical layout of the drum to optimize speed. Latches built out oftriode vacuum tubes, and later, out ofdiscrete transistors, were used for smaller and faster memories such asregisters. Such registers were relatively large and too costly to use for large amounts of data; generally, only a few dozen or few hundredbitsof such memory could be provided.
+
+The first practical form of random-access memory was theWilliams tube. It stored data as electrically charged spots on the face of acathode-ray tube. Since the electron beam of the CRT could read and write the spots on the tube in any order, memory was random access. The capacity of the Williams tube was a few hundred to around a thousand bits, but it was much smaller, faster, and more power-efficient than using individual vacuum tube latches. Developed at theUniversity of Manchesterin England, the Williams tube provided the medium on which the first electronically stored program was implemented in theManchester Babycomputer, which first successfully ran a program on 21 June, 1948.[7]In fact, rather than the Williams tube memory being designed for the Baby, the Baby was atestbedto demonstrate the reliability of the memory.[8][9]
+
+Magnetic-core memorywas invented in 1947 and developed up until the mid-1970s. It became a widespread form of random-access memory, relying on an array of magnetized rings. By changing the sense of each ring's magnetization, data could be stored with one bit stored per ring. Since every ring had a combination of address wires to select and read or write it, access to any memory location in any sequence was possible. Magnetic core memory was the standard form ofcomputer memoryuntil displaced bysemiconductor memoryinintegrated circuits(ICs) during the early 1970s.[10]
+
+Prior to the development of integratedread-only memory(ROM) circuits,permanent(orread-only) random-access memory was often constructed usingdiode matricesdriven byaddress decoders, or specially woundcore rope memoryplanes.[citation needed]
+
+Semiconductor memoryappeared in the 1960s with bipolar memory, which usedbipolar transistors. Although it was faster, it could not compete with the lower price of magnetic core memory.[11]
+
+
+--- Source: Wikipedia-Solid-state_drive ---
+Article: Solid-state drive
+
+Asolid-state drive(SSD) is a type ofsolid-state storagedevice that usesintegrated circuitsto store datapersistently. It is sometimes calledsemiconductor storage device,solid-state device, orsolid-state disk.[1][2]
+
+SSDs rely on non-volatile memory, typicallyNAND flash, to store data in memory cells. The performance and endurance of SSDs vary depending on the number of bits stored per cell, ranging from high-performing single-level cells (SLC) to more affordable but slower quad-level cells (QLC). In addition to flash-based SSDs, other technologies such as3D XPointoffer faster speeds and higher endurance through different data storage mechanisms.
+
+Unlike traditionalhard disk drives(HDDs), SSDs have no moving parts, allowing them to deliver faster data access speeds, reduced latency, increased resistance to physical shock, lower power consumption, and silent operation.
+
+Often interfaced to a system in the same way as HDDs, SSDs are used in a variety of devices, includingpersonal computers,enterprise servers, andmobile devices. However, SSDs are generally more expensive on a per-gigabyte basis and have a finite number of write cycles, which can lead to data loss over time. Despite these limitations, SSDs are increasingly replacing HDDs, especially in performance-critical applications and as primary storage in many consumer devices.
+
+SSDs come in various form factors and interface types, includingSATA,PCIe, andNVMe, each offering different levels of performance. Hybrid storage solutions, such assolid-state hybrid drives(SSHDs), combine SSD and HDD technologies to offer improved performance at a lower cost than pure SSDs.
+
+An SSD stores data insemiconductorcells, with its properties varying according to the number ofbitsstored in each cell (between 1 and 4). Single-level cells (SLC) store one bit of data per cell and provide higher performance and endurance. In contrast, multi-level cells (MLC), triple-level cells (TLC), and quad-level cells (QLC) store more data per cell but have lower performance and endurance. SSDs using3D XPointtechnology, such as Intel's Optane, store data by changing electrical resistance instead of storing electrical charges in cells, which can provide faster speeds and longer data persistence compared to conventional flash memory.[3]SSDs based onNAND flashslowly leak charge when not powered, while heavily used consumer drives may start losing data typically after one to two years unpowered in storage.[4]SSDs have a limited lifetime number of writes, and also slow down as they reach their full storage capacity.[citation needed]
+
+SSDs also have internal parallelism that allows them to manage multiple operations simultaneously, which enhances their performance.[5]
+
+Unlike HDDs and similarelectromechanicalmagnetic storage, SSDs do not have moving mechanical parts, which provides advantages such as resistance to physical shock, quieter operation, and faster access times. Their lower latency results in higher input/output rates (IOPS) than HDDs.[6]
+
+Some SSDs are combined with traditional hard drives in hybrid configurations, such as Intel'sHystorand Apple'sFusion Drive. These drives use both flash memory and spinning magnetic disks in order to improve the performance of frequently accessed data.[7][8]
+
+
+--- Source: Wikipedia-Computer_cooling ---
+Article: Computer cooling
+
+Computer coolingis required to remove thewaste heatproduced bycomputer hardware, to keep components within permissibleoperating temperaturelimits. Components that are susceptible to temporary malfunction or permanent failure if overheated includeintegrated circuitssuch ascentral processing units(CPUs),chipsets,graphics cards,hard disk drives, andsolid state drives(SSDs).
+
+Components are often designed to generate as little heat as possible, and computers and operating systems may be designed to reduce power consumption and consequent heating according to workload, but more heat may still be produced than can be removed without attention to cooling. Use ofheatsinkscooled by airflow reduces the temperature rise produced by a given amount of heat. Attention to patterns of airflow can prevent the development of hotspots.Computer fansare widely used along with heatsink fans to reduce temperature by actively exhausting hot air. There are also other cooling techniques, such asliquid cooling. All modern day processors are designed to cut out or reduce their voltage or clock speed if the internal temperature of the processor exceeds a specified limit. This is generally known as Thermal Throttling in the case of reduction of clock speeds, or Thermal Shutdown in the case of a complete shutdown of the device or system.
+
+Cooling may be designed to reduce the ambient temperature within the case of a computer, such as by exhausting hot air, or to cool a single component or small area (spot cooling). Components commonly individually cooled include the CPU,graphics processing unit(GPU) and thenorthbridge.
+
+Integrated circuits(e.g. CPU and GPU) are the main generators of heat in modern computers. Heat generation can be reduced by efficient design and selection of operating parameters such as voltage and frequency, but ultimately, acceptable performance can often only be achieved by managing significant heat generation.
+
+In operation, the temperature of a computer's components will rise until the heat transferred to the surroundings is equal to the heat produced by the component, that is, whenthermal equilibriumis reached. For reliable operation, the temperature must never exceed a specified maximum permissible value unique to each component. For semiconductors, instantaneousjunction temperature, rather than component case, heatsink, or ambient temperature is critical.
+
+Because high temperatures can significantly reduce life span or cause permanent damage to components, and the heat output of components can sometimes exceed the computer's cooling capacity, manufacturers often take additional precautions to ensure that temperatures remain within safe limits. A computer withthermal sensorsintegrated in the CPU, motherboard, chipset, or GPU can shut itself down when high temperatures are detected to prevent permanent damage, although this may not completely guarantee long-term safe operation. Before an overheating component reaches this point, it may be "throttled" until temperatures fall below a safe point usingdynamic frequency scalingtechnology. Throttling reduces the operating frequency and voltage of an integrated circuit or disables non-essential features of the chip to reduce heat output, often at the cost of slightly or significantly reduced performance. For desktop and notebook computers, throttling is often controlled at theBIOSlevel. Throttling is also commonly used to manage temperatures in smartphones and tablets, where components are packed tightly together with little to no active cooling, and with additional heat transferred from the hand of the user.[1]
+
+The user can also perform several tasks in order to preemptively prevent damage from happening. They can perform a visual inspection of the cooler and case fans. If any of them are not spinning correctly, it is likely that they will need to be replaced. The user should also clean the fans thoroughly, since dust and debris can increase the ambient case temperature and impact fan performance. The best way to do so is with compressed air in an open space. Another preemptive technique to prevent damage is to replace the thermal paste regularly.[2]
+
+As electronic computers became larger and more complex, cooling of the active components became a critical factor for reliable operation. Early vacuum-tube computers, with relatively large cabinets, could rely on natural or forced air circulation for cooling. However, solid-state devices were packed much more densely and had lower allowable operating temperatures.
+
+
+--- Source: Wikipedia-Motherboard ---
+Article: Motherboard
+
+Amotherboard, also called amainboard, asystem board, alogic board, and informally amobo(see"Nomenclature" section), is the mainprinted circuit board(PCB) ingeneral-purpose computersand other expandable systems. It holds and allows communication between many of the crucial electronic components of a system, such as thecentral processing unit(CPU) andmemory, and provides connectors for otherperipherals.
+
+Unlike abackplane, a motherboard usually contains significant sub-systems, such as the CPU, thechipset'sinput/outputandmemory controllers,interfaceconnectors, and other components integrated for general use.[1]: 48
+
+Oxford English Dictionarytraces the origin of the wordmotherboardto 1965, its earliest-found attestation occurring in the magazineElectronics.[2]The term alludes to its importance and size compared to the components attached to it, being the "mother of all boards" in a computer system.[3]
+
+Several alternative terms formotherboardhave been used in technical documentation and industry practice, includingmainboard,system board,logic board,baseboard, and the informalmobo. These terms are functionally synonymous and reflect regional, corporate, or contextual preferences rather than a coordinated effort to adopt gender-neutral language.[citation needed]
+
+System boardwas used byIBMin documentation for theIBM PCand its derivatives; however, higher-end models in thePS/2line, such as theModel 80, used the termplanarinstead.Applecommonly useslogic boardin its technical documentation for products such as theApple IIand theMac.Inteltypically usesbaseboardin its technical manuals, though it also usesmotherboardinterchangeably.[1]The termmobois an informal truncation ofmotherboard, popularized by computer enthusiasts and builders in the 1990s.[4]
+
+The termmainboardsometimes describes a device with a single board and no additional expansions or capability, such as controlling boards inlaser printers,televisionsets,washing machines,mobile phones, and otherembedded systemswith limited expansion abilities.[citation needed]
+
+Before the advent of themicroprocessor, thecentral processing unit(CPU) of acomputerwas typically implemented using multipleprinted circuit boardshoused in a card cage, interconnected via abackplane—a board containing sockets into which the individual circuit boards were inserted. Early systems used discrete copper wiring between connector pins, but printed circuit boards quickly became the standard. The CPU,main memory, andperipheralcomponents were each located on separate boards connected through the backplane.
+
+With the rise of microprocessors, CPU functionality and supporting circuitry were consolidated onto a single board, while memory and peripherals remained on separate expansion cards plugged into the backplane. A prominent example is theS-100 bus, widely used in 1970s microcomputer systems such as theAltair 8800.
+
+In the 1980s, popular personal computers like theApple IIandIBM Personal Computerfeatured publicly available schematic diagrams and technical documentation[5][6]. This openness enabled rapidreverse engineeringand the development of third-party motherboards. These clone and upgrade boards often provided enhanced performance or additional features, and were commonly used to modernize or replace original manufacturer hardware.
+

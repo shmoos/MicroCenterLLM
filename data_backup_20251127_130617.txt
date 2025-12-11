@@ -1,0 +1,1051 @@
+
+--- Source: Sample-QA ---
+Question: What's the difference between DDR4 and DDR5 RAM?
+
+Answer: DDR5 RAM offers higher speeds (up to 6400MHz+) compared to DDR4 (typically 2133-3200MHz). DDR5 also has improved power efficiency with lower voltage (1.1V vs 1.2V) and higher bandwidth. However, DDR5 typically has higher latency and is more expensive. For most gaming and everyday use, DDR4 is still excellent value.
+
+
+
+--- Source: Sample-QA ---
+Question: How much power supply wattage do I need for an RTX 4090?
+
+Answer: NVIDIA recommends an 850W power supply for the RTX 4090, but many users opt for 1000W or higher for headroom and efficiency. The 4090 has a 450W TDP, so you need to account for your CPU (100-250W), motherboard, drives, and other components. A quality 1000W PSU from brands like Corsair, EVGA, or Seasonic is recommended.
+
+
+
+--- Source: Sample-QA ---
+Question: Is 16GB RAM enough for gaming in 2024?
+
+Answer: 16GB RAM is still adequate for most gaming in 2024, but 32GB is becoming the recommended amount for new builds. Some modern games like Star Citizen, Cyberpunk 2077, and flight simulators can use more than 16GB. If you multitask (gaming while streaming/browsing), 32GB provides much better headroom. DDR4 16GB kits are affordable, making 32GB a good value upgrade.
+
+
+
+--- Source: Sample-QA ---
+Question: What CPU should I pair with an RTX 4070?
+
+Answer: For an RTX 4070, good CPU pairings include: Intel Core i5-13600K or i5-14600K for excellent gaming performance, AMD Ryzen 5 7600X or 7700X for great value, or Intel Core i7-13700K/i7-14700K if you also do productivity work. Avoid pairing with older CPUs like the i5-10400 or Ryzen 3600 as they may bottleneck the GPU in CPU-intensive games at 1080p.
+
+
+
+--- Source: Sample-QA ---
+Question: Do I need a CPU cooler or can I use the stock one?
+
+Answer: Intel K-series CPUs and AMD Ryzen 5 7600X and above don't include stock coolers. Intel non-K chips include basic coolers that work but are loud under load. AMD's stock coolers (Wraith) are better but still noisy. For best results, invest in a tower cooler like the Thermalright Peerless Assassin 120 ($35) or Arctic Freezer 34 eSports. High-end CPUs benefit from 280mm+ AIOs.
+
+
+
+--- Source: Wikipedia-Graphics_processing_unit ---
+Article: Graphics processing unit
+
+Agraphics processing unit(GPU) is a specializedelectronic circuitdesigned fordigital image processingand to acceleratecomputer graphics, being present either as a component on a discretegraphics cardor embedded onmotherboards,mobile phones,personal computers,workstations, andgame consoles. GPUs were later found to be useful for non-graphic calculations involvingembarrassingly parallelproblems due to theirparallel structure. The ability of GPUs to rapidly perform vast numbers of calculations has led to their adoption in diverse fields includingartificial intelligence(AI) where they excel at handling data-intensive and computationally demanding tasks. Other non-graphical uses include the training ofneural networksandcryptocurrency mining.
+
+Arcade system boardshave used specialized graphics circuits since the 1970s. In early video game hardware,RAMfor frame buffers was expensive, so video chips composited data together as the display was being scanned out on the monitor.[1]
+
+A specializedbarrel shiftercircuit helped the CPU animate theframebuffergraphics for various 1970sarcade video gamesfromMidwayandTaito, such asGun Fight(1975),Sea Wolf(1976), andSpace Invaders(1978).[2]TheNamco Galaxianarcade system in 1979 used specializedgraphics hardwarethat supportedRGB color, multi-colored sprites, andtilemapbackgrounds.[3]The Galaxian hardware was widely used during thegolden age of arcade video games, by game companies such asNamco,Centuri,Gremlin,Irem,Konami, Midway,Nichibutsu,Sega, and Taito.[4]
+
+TheAtari 2600in 1977 used a video shifter called theTelevision Interface Adaptor.[5]Atari 8-bit computers(1979) hadANTIC, a video processor which interpreted instructions describing a "display list"—the way the scan lines map to specificbitmappedor character modes and where the memory is stored (so there did not need to be a contiguous frame buffer).[clarification needed][6]6502machine codesubroutinescould be triggered onscan linesby setting a bit on a display list instruction.[clarification needed][7]ANTIC also supported smoothverticalandhorizontal scrollingindependent of the CPU.[8]
+
+TheNEC μPD7220was the first implementation of apersonal computergraphics display processor as a singlelarge-scale integration(LSI)integrated circuitchip. This enabled the design of low-cost, high-performance video graphics cards such as those fromNumber Nine Visual Technology. It became the best-known GPU until the mid-1980s.[9]It was the first fully integratedVLSI(very large-scale integration)metal–oxide–semiconductor(NMOS) graphics display processor for PCs, supported up to1024×1024 resolution, and laid the foundations for the PC graphics market. It was used in a number of graphics cards and was licensed for clones such as the Intel 82720, the first ofIntel's graphics processing units.[10]TheWilliams Electronicsarcade gamesRobotron: 2084,Joust,Sinistar, andBubbles, all released in 1982, contain customblitterchips for operating on 16-color bitmaps.[11][12]
+
+In 1984,Hitachireleased the ARTC HD63484, the first majorCMOSgraphics processor for personal computers. The ARTC could display up to4K resolutionwhen inmonochromemode. It was used in a number of graphics cards and terminals during the late 1980s.[13]In 1985, theAmigawas released with a custom graphics chip including a blitter for bitmap manipulation, line drawing, and area fill. It also included acoprocessorwith its own simple instruction set, that was capable of manipulating graphics hardware registers in sync with the video beam (e.g. for per-scanline palette switches,sprite multiplexing, and hardware windowing), or driving the blitter. In 1986,Texas Instrumentsreleased theTMS34010, the first fully programmable graphics processor.[14]It could run general-purpose code but also had a graphics-oriented instruction set. During 1990–1992, this chip became the basis of theTexas Instruments Graphics Architecture("TIGA")Windows acceleratorcards.
+
+In 1987, theIBM 8514graphics system was released. It was one of the first video cards forIBM PC compatiblesthat implementedfixed-function2D primitives inelectronic hardware.Sharp'sX68000, released in 1987, used a custom graphics chipset[15]with a 65,536 color palette and hardware support for sprites, scrolling, and multiple playfields.[16]It served as a development machine forCapcom'sCP Systemarcade board. Fujitsu'sFM Townscomputer, released in 1989, had support for a 16,777,216 color palette.[17]In 1988, the first dedicatedpolygonal 3Dgraphics boards were introduced in arcades with theNamco System 21[18]andTaitoAir System.[19]
+
+IBMintroduced itsproprietaryVideo Graphics Array(VGA) display standard in 1987, with a maximum resolution of 640×480 pixels. In November 1988,NEC Home Electronicsannounced its creation of theVideo Electronics Standards Association(VESA) to develop and promote aSuper VGA(SVGA)computer display standardas a successor to VGA. Super VGA enabledgraphics display resolutionsup to 800×600pixels, a 56% increase.[20]
+
+In 1991,S3 Graphicsintroduced theS3 86C911, which its designers named after thePorsche 911as an indication of the performance increase it promised.[21]The 86C911 spawned a variety of imitators: by 1995, all major PC graphics chip makers had added2Dacceleration support to their chips.[22]Fixed-functionWindows acceleratorssurpassed expensive general-purpose graphics coprocessors in Windows performance, and such coprocessors faded from the PC market.
+
+In the early- and mid-1990s,real-time3D graphics became increasingly common in arcade, computer, and console games, which led to increasing public demand for hardware-accelerated 3D graphics. Early examples of mass-market 3D graphics hardware can be found in arcade system boards such as theSega Model 1,Namco System 22, andSega Model 2, and thefifth-generation video game consolessuch as theSaturn,PlayStation, andNintendo 64. Arcade systems such as the Sega Model 2 andSGIOnyx-based Namco Magic Edge Hornet Simulator in 1993 were capable of hardware T&L (transform, clipping, and lighting) years before appearing in consumer graphics cards.[23][24]Another early example is theSuper FXchip, aRISC-basedon-cartridge graphics chipused in someSNESgames, notablyDoomandStar Fox. Some systems usedDSPsto accelerate transformations.Fujitsu, which worked on the Sega Model 2 arcade system,[25]began working on integrating T&L into a singleLSIsolution for use in home computers in 1995;[26]the Fujitsu Pinolite, the first 3D geometry processor for personal computers, announced in 1997.[27]The first hardware T&L GPU onhomevideo game consoleswas theNintendo 64'sReality Coprocessor, released in 1996.[28]In 1997,Mitsubishireleased the3Dpro/2MP, a GPU capable of transformation and lighting, forworkstationsandWindows NTdesktops;[29]ATiused it for itsFireGL 4000graphics card, released in 1997.[30]
+
+
+--- Source: Wikipedia-Central_processing_unit ---
+Article: Central processing unit
+
+Acentral processing unit(CPU), also called acentral processor,main processor, or justprocessor, is the primaryprocessorin a givencomputer.[1][2]Itselectronic circuitryexecutesinstructionsof acomputer program, such asarithmetic, logic, controlling, andinput/output(I/O) operations.[3][4][5]This role contrasts with that of external components, such asmain memoryand I/O circuitry,[6]and specializedcoprocessorssuch asgraphics processing units(GPUs).
+
+The form,design, and implementation of CPUs have changed over time, but their fundamental operation remains almost unchanged.[7]Principal components of a CPU include thearithmetic–logic unit(ALU) that performsarithmeticandlogic operations,processor registersthat supplyoperandsto the ALU and store the results of ALU operations, and acontrol unitthat orchestrates thefetching (from memory),decodingandexecution (of instructions)by directing the coordinated operations of the ALU, registers, and other components. Modern CPUs devote a lot of semiconductor area tocachesandinstruction-level parallelismto increase performance and toCPU modesto supportoperating systemsandvirtualization.
+
+Most modern CPUs are implemented onintegrated circuitmicroprocessors, with one or more CPUs on a single IC chip. Microprocessor chips with multiple CPUs are calledmulti-core processors(MCP).[8]The individual physical CPUs, calledprocessor cores, can also bemultithreadedto support CPU-level multithreading.[9]
+
+An IC that contains a CPU may also containmemory,peripheralinterfaces, and other components of a computer;[10]such integrated devices are variously calledmicrocontrollersorsystems on a chip(SoC).
+
+Early computers such as theENIAChad to be physically rewired to perform different tasks, which caused these machines to be called "fixed-program computers".[11]The "central processing unit" term has been in use since as early as 1955.[12][13]Since the term "CPU" is generally defined as a device forsoftware(computer program) execution, the earliest devices that could rightly be called CPUs came with the advent of thestored-program computer.
+
+The idea of a stored-program computer had already been present in the design ofJohn Presper EckertandJohn William Mauchly'sENIAC, but was initially omitted so that it could be finished sooner.[14]On June 30, 1945, before ENIAC was made, mathematicianJohn von Neumanndistributed a paper entitledFirst Draft of a Report on the EDVAC. It was the outline of a stored-program computer that would eventually be completed in August 1949.[15]EDVACwas designed to perform a certain number of instructions (or operations) of various types. Significantly, the programs written for EDVAC were to be stored in high-speedcomputer memoryrather than specified by the physical wiring of the computer.[16]This overcame a severe limitation of ENIAC, which was the considerable time and effort required to reconfigure the computer to perform a new task.[17]With von Neumann's design, the program that EDVAC ran could be changed simply by changing the contents of the memory. EDVAC was not the first stored-program computer; theManchester Baby, which was a small-scale experimental stored-program computer, ran its first program on 21 June 1948[18]and theManchester Mark 1ran its first program during the night of 16–17 June 1949.[19]
+
+Early CPUs were custom designs used as part of a larger and sometimes distinctive computer.[20]However, this method of designing custom CPUs for a particular application has largely given way to the development of multi-purpose processors produced in large quantities. This standardization began in the era of discretetransistormainframesandminicomputers, and has rapidly accelerated with the popularization of theintegrated circuit(IC). The IC has allowed increasingly complex CPUs to be designed and manufactured to tolerances on the order ofnanometers.[21]Both the miniaturization and standardization of CPUs have increased the presence of digital devices in modern life far beyond the limited application of dedicated computing machines. Modern microprocessors appear in electronic devices ranging from automobiles[22]to cellphones,[23]and sometimes even in toys.[24][25]
+
+While von Neumann is most often credited with the design of the stored-program computer because of his design of EDVAC, and the design became known as thevon Neumann architecture, others before him, such asKonrad Zuse, had suggested and implemented similar ideas.[26]The so-calledHarvard architectureof theHarvard Mark I, which was completed before EDVAC,[27][28]also used a stored-program design usingpunched paper taperather than electronic memory.[29]The key difference between the two is that Harvard architecture separates the storage and treatment of CPU instructions and data, whereas von Neumann architecture uses the same memory space for both.[30]Most modern CPUs are primarily von Neumann in design, but CPUs with the Harvard architecture are seen as well, especially in embedded applications; for instance, theAtmel AVRmicrocontrollers are Harvard-architecture processors.[31]
+
+Prior to the invention of the transistor,relaysandvacuum tubes(thermionic tubes) were commonly used as switching elements;[32][33]a useful computer requires thousands or tens of thousands of switching devices. The overall speed of a system is dependent on the speed of the switches.Vacuum-tube computerssuch as EDVAC tended to average eight hours between failures, whereas relay computers—such as the slower but earlierHarvard Mark I—failed very rarely.[13]In the end, tube-based CPUs became dominant because the significant speed advantages afforded generally outweighed the reliability problems. Most of these early synchronous CPUs ran at lowclock ratescompared to modern microelectronic designs. Clock signal frequencies ranging from 100kHzto 4 MHz were very common at this time, limited largely by the speed of the switching devices they were built with.[34]
+
+The design complexity of CPUs increased as various technologies facilitated the building of smaller and more reliable electronic devices. The first such improvement came with the advent of thetransistor. Transistorized CPUs during the 1950s and 1960s no longer had to be built out of bulky, unreliable, and fragile switching elements, likevacuum tubesandrelays.[35]With this improvement, more complex and reliable CPUs were built onto one or severalprinted circuit boardscontaining discrete (individual) components.
+
+
+--- Source: Wikipedia-Random-access_memory ---
+Article: Random-access memory
+
+Random-access memory(RAM;/ræm/) is a form ofelectronic computer memorythat can be read and changed in any order, typically used to store workingdataandmachine code.[1][2]Arandom-accessmemory device allows data items to bereador written in almost the same amount of time irrespective of the physical location of data inside the memory, in contrast with other direct-access data storage media (such ashard disksandmagnetic tape), where the time required to read and write data items varies significantly depending on their physical locations on the recording medium, due to mechanical limitations such as media rotation speeds and arm movement.
+
+In modern technology, random-access memory takes the form ofintegrated circuit(IC) chips withMOS(metal–oxide–semiconductor)memory cells. RAM is normally associated withvolatiletypes of memory where stored information is lost if power is removed. The two main types of volatile random-accesssemiconductor memoryarestatic random-access memory(SRAM) anddynamic random-access memory(DRAM).
+
+Non-volatile RAM has also been developed[3]and other types ofnon-volatile memoriesallow random access for read operations, but either do not allow write operations or have other kinds of limitations. These include most types ofROMandNOR flash memory.
+
+The use of semiconductor RAM dates back to 1965 when IBM introduced the monolithic (single-chip) 16-bit SP95 SRAM chip for theirSystem/360 Model 95computer, andToshibaused bipolar DRAM memory cells for its 180-bit Toscal BC-1411electronic calculator, both based onbipolar transistors. While it offered higher speeds thanmagnetic-core memory, bipolar DRAM could not compete with the lower price of the then-dominant magnetic-core memory.[4]In 1966, Dr.Robert Dennardinvented modern DRAM architecture in which there's a single MOS transistor per capacitor.[5]The first commercial DRAM IC chip, the 1KIntel 1103, was introduced in October 1970.Synchronous dynamic random-access memory(SDRAM) was reintroduced with theSamsungKM48SL2000 chip in 1992.
+
+Early computers usedrelays,mechanical counters[6]ordelay linesfor main memory functions. Ultrasonic delay lines wereserial deviceswhich could only reproduce data in the order it was written.Drum memorycould be expanded at relatively low cost but efficient retrieval of memory items requires knowledge of the physical layout of the drum to optimize speed. Latches built out oftriode vacuum tubes, and later, out ofdiscrete transistors, were used for smaller and faster memories such asregisters. Such registers were relatively large and too costly to use for large amounts of data; generally, only a few dozen or few hundredbitsof such memory could be provided.
+
+The first practical form of random-access memory was theWilliams tube. It stored data as electrically charged spots on the face of acathode-ray tube. Since the electron beam of the CRT could read and write the spots on the tube in any order, memory was random access. The capacity of the Williams tube was a few hundred to around a thousand bits, but it was much smaller, faster, and more power-efficient than using individual vacuum tube latches. Developed at theUniversity of Manchesterin England, the Williams tube provided the medium on which the first electronically stored program was implemented in theManchester Babycomputer, which first successfully ran a program on 21 June, 1948.[7]In fact, rather than the Williams tube memory being designed for the Baby, the Baby was atestbedto demonstrate the reliability of the memory.[8][9]
+
+Magnetic-core memorywas invented in 1947 and developed up until the mid-1970s. It became a widespread form of random-access memory, relying on an array of magnetized rings. By changing the sense of each ring's magnetization, data could be stored with one bit stored per ring. Since every ring had a combination of address wires to select and read or write it, access to any memory location in any sequence was possible. Magnetic core memory was the standard form ofcomputer memoryuntil displaced bysemiconductor memoryinintegrated circuits(ICs) during the early 1970s.[10]
+
+Prior to the development of integratedread-only memory(ROM) circuits,permanent(orread-only) random-access memory was often constructed usingdiode matricesdriven byaddress decoders, or specially woundcore rope memoryplanes.[citation needed]
+
+Semiconductor memoryappeared in the 1960s with bipolar memory, which usedbipolar transistors. Although it was faster, it could not compete with the lower price of magnetic core memory.[11]
+
+
+--- Source: Wikipedia-Solid-state_drive ---
+Article: Solid-state drive
+
+Asolid-state drive(SSD) is a type ofsolid-state storagedevice that usesintegrated circuitsto store datapersistently. It is sometimes calledsemiconductor storage device,solid-state device, orsolid-state disk.[1][2]
+
+SSDs rely on non-volatile memory, typicallyNAND flash, to store data in memory cells. The performance and endurance of SSDs vary depending on the number of bits stored per cell, ranging from high-performing single-level cells (SLC) to more affordable but slower quad-level cells (QLC). In addition to flash-based SSDs, other technologies such as3D XPointoffer faster speeds and higher endurance through different data storage mechanisms.
+
+Unlike traditionalhard disk drives(HDDs), SSDs have no moving parts, allowing them to deliver faster data access speeds, reduced latency, increased resistance to physical shock, lower power consumption, and silent operation.
+
+Often interfaced to a system in the same way as HDDs, SSDs are used in a variety of devices, includingpersonal computers,enterprise servers, andmobile devices. However, SSDs are generally more expensive on a per-gigabyte basis and have a finite number of write cycles, which can lead to data loss over time. Despite these limitations, SSDs are increasingly replacing HDDs, especially in performance-critical applications and as primary storage in many consumer devices.
+
+SSDs come in various form factors and interface types, includingSATA,PCIe, andNVMe, each offering different levels of performance. Hybrid storage solutions, such assolid-state hybrid drives(SSHDs), combine SSD and HDD technologies to offer improved performance at a lower cost than pure SSDs.
+
+An SSD stores data insemiconductorcells, with its properties varying according to the number ofbitsstored in each cell (between 1 and 4). Single-level cells (SLC) store one bit of data per cell and provide higher performance and endurance. In contrast, multi-level cells (MLC), triple-level cells (TLC), and quad-level cells (QLC) store more data per cell but have lower performance and endurance. SSDs using3D XPointtechnology, such as Intel's Optane, store data by changing electrical resistance instead of storing electrical charges in cells, which can provide faster speeds and longer data persistence compared to conventional flash memory.[3]SSDs based onNAND flashslowly leak charge when not powered, while heavily used consumer drives may start losing data typically after one to two years unpowered in storage.[4]SSDs have a limited lifetime number of writes, and also slow down as they reach their full storage capacity.[citation needed]
+
+SSDs also have internal parallelism that allows them to manage multiple operations simultaneously, which enhances their performance.[5]
+
+Unlike HDDs and similarelectromechanicalmagnetic storage, SSDs do not have moving mechanical parts, which provides advantages such as resistance to physical shock, quieter operation, and faster access times. Their lower latency results in higher input/output rates (IOPS) than HDDs.[6]
+
+Some SSDs are combined with traditional hard drives in hybrid configurations, such as Intel'sHystorand Apple'sFusion Drive. These drives use both flash memory and spinning magnetic disks in order to improve the performance of frequently accessed data.[7][8]
+
+
+--- Source: Wikipedia-Computer_cooling ---
+Article: Computer cooling
+
+Computer coolingis required to remove thewaste heatproduced bycomputer hardware, to keep components within permissibleoperating temperaturelimits. Components that are susceptible to temporary malfunction or permanent failure if overheated includeintegrated circuitssuch ascentral processing units(CPUs),chipsets,graphics cards,hard disk drives, andsolid state drives(SSDs).
+
+Components are often designed to generate as little heat as possible, and computers and operating systems may be designed to reduce power consumption and consequent heating according to workload, but more heat may still be produced than can be removed without attention to cooling. Use ofheatsinkscooled by airflow reduces the temperature rise produced by a given amount of heat. Attention to patterns of airflow can prevent the development of hotspots.Computer fansare widely used along with heatsink fans to reduce temperature by actively exhausting hot air. There are also other cooling techniques, such asliquid cooling. All modern day processors are designed to cut out or reduce their voltage or clock speed if the internal temperature of the processor exceeds a specified limit. This is generally known as Thermal Throttling in the case of reduction of clock speeds, or Thermal Shutdown in the case of a complete shutdown of the device or system.
+
+Cooling may be designed to reduce the ambient temperature within the case of a computer, such as by exhausting hot air, or to cool a single component or small area (spot cooling). Components commonly individually cooled include the CPU,graphics processing unit(GPU) and thenorthbridge.
+
+Integrated circuits(e.g. CPU and GPU) are the main generators of heat in modern computers. Heat generation can be reduced by efficient design and selection of operating parameters such as voltage and frequency, but ultimately, acceptable performance can often only be achieved by managing significant heat generation.
+
+In operation, the temperature of a computer's components will rise until the heat transferred to the surroundings is equal to the heat produced by the component, that is, whenthermal equilibriumis reached. For reliable operation, the temperature must never exceed a specified maximum permissible value unique to each component. For semiconductors, instantaneousjunction temperature, rather than component case, heatsink, or ambient temperature is critical.
+
+Because high temperatures can significantly reduce life span or cause permanent damage to components, and the heat output of components can sometimes exceed the computer's cooling capacity, manufacturers often take additional precautions to ensure that temperatures remain within safe limits. A computer withthermal sensorsintegrated in the CPU, motherboard, chipset, or GPU can shut itself down when high temperatures are detected to prevent permanent damage, although this may not completely guarantee long-term safe operation. Before an overheating component reaches this point, it may be "throttled" until temperatures fall below a safe point usingdynamic frequency scalingtechnology. Throttling reduces the operating frequency and voltage of an integrated circuit or disables non-essential features of the chip to reduce heat output, often at the cost of slightly or significantly reduced performance. For desktop and notebook computers, throttling is often controlled at theBIOSlevel. Throttling is also commonly used to manage temperatures in smartphones and tablets, where components are packed tightly together with little to no active cooling, and with additional heat transferred from the hand of the user.[1]
+
+The user can also perform several tasks in order to preemptively prevent damage from happening. They can perform a visual inspection of the cooler and case fans. If any of them are not spinning correctly, it is likely that they will need to be replaced. The user should also clean the fans thoroughly, since dust and debris can increase the ambient case temperature and impact fan performance. The best way to do so is with compressed air in an open space. Another preemptive technique to prevent damage is to replace the thermal paste regularly.[2]
+
+As electronic computers became larger and more complex, cooling of the active components became a critical factor for reliable operation. Early vacuum-tube computers, with relatively large cabinets, could rely on natural or forced air circulation for cooling. However, solid-state devices were packed much more densely and had lower allowable operating temperatures.
+
+
+--- Source: Wikipedia-Motherboard ---
+Article: Motherboard
+
+Amotherboard, also called amainboard, asystem board, alogic board, and informally amobo(see"Nomenclature" section), is the mainprinted circuit board(PCB) ingeneral-purpose computersand other expandable systems. It holds and allows communication between many of the crucial electronic components of a system, such as thecentral processing unit(CPU) andmemory, and provides connectors for otherperipherals.
+
+Unlike abackplane, a motherboard usually contains significant sub-systems, such as the CPU, thechipset'sinput/outputandmemory controllers,interfaceconnectors, and other components integrated for general use.[1]: 48
+
+Oxford English Dictionarytraces the origin of the wordmotherboardto 1965, its earliest-found attestation occurring in the magazineElectronics.[2]The term alludes to its importance and size compared to the components attached to it, being the "mother of all boards" in a computer system.[3]
+
+Several alternative terms formotherboardhave been used in technical documentation and industry practice, includingmainboard,system board,logic board,baseboard, and the informalmobo. These terms are functionally synonymous and reflect regional, corporate, or contextual preferences rather than a coordinated effort to adopt gender-neutral language.[citation needed]
+
+System boardwas used byIBMin documentation for theIBM PCand its derivatives; however, higher-end models in thePS/2line, such as theModel 80, used the termplanarinstead.Applecommonly useslogic boardin its technical documentation for products such as theApple IIand theMac.Inteltypically usesbaseboardin its technical manuals, though it also usesmotherboardinterchangeably.[1]The termmobois an informal truncation ofmotherboard, popularized by computer enthusiasts and builders in the 1990s.[4]
+
+The termmainboardsometimes describes a device with a single board and no additional expansions or capability, such as controlling boards inlaser printers,televisionsets,washing machines,mobile phones, and otherembedded systemswith limited expansion abilities.[citation needed]
+
+Before the advent of themicroprocessor, thecentral processing unit(CPU) of acomputerwas typically implemented using multipleprinted circuit boardshoused in a card cage, interconnected via abackplane—a board containing sockets into which the individual circuit boards were inserted. Early systems used discrete copper wiring between connector pins, but printed circuit boards quickly became the standard. The CPU,main memory, andperipheralcomponents were each located on separate boards connected through the backplane.
+
+With the rise of microprocessors, CPU functionality and supporting circuitry were consolidated onto a single board, while memory and peripherals remained on separate expansion cards plugged into the backplane. A prominent example is theS-100 bus, widely used in 1970s microcomputer systems such as theAltair 8800.
+
+In the 1980s, popular personal computers like theApple IIandIBM Personal Computerfeatured publicly available schematic diagrams and technical documentation[5][6]. This openness enabled rapidreverse engineeringand the development of third-party motherboards. These clone and upgrade boards often provided enhanced performance or additional features, and were commonly used to modernize or replace original manufacturer hardware.
+
+
+--- Source: Wikipedia-Power_supply_unit_(computer) ---
+Article: Power supply unit (computer)
+
+Apower supply unit(PSU) convertsmains ACto low-voltage regulatedDC powerfor the internal components of adesktop computer. Modern personal computers universally useswitched-mode power supplies. Somepower supplieshave a manual switch for selecting input voltage, while others automatically adapt to the main voltage.
+
+Most modern desktop personal computer power supplies conform to theATX specification, which includes form factor and voltage tolerances. While an ATX power supply is connected to the mains supply, it always provides a 5-voltstandby (5VSB) power so that the standby functions on the computer and certain peripherals are powered. ATX power supplies are turned on and off by a signal from themotherboard. They also provide a signal to the motherboard to indicate when the DC voltages are in spec, so that the computer is able to safely power up and boot. The most recent ATX PSU standard is version 3.1 as of mid 2025.[1]
+
+The desktop computer power supply converts thealternating current(AC) from awall socketofmains electricityto a low-voltagedirect current(DC) to operate the motherboard, processor and peripheral devices. Several direct-current voltages are required, and they must be regulated with some accuracy to provide stable operation of the computer. Apower supply railorvoltage railrefers to a single voltage provided by a PSU.[2]
+
+Some PSUs can also supply astandby voltage, so that most of thecomputersystem can be powered off after preparing for hibernation or shutdown, and powered back on by an event. Standby power allows a computer to be started remotely viawake-on-LANandWake-on-ringor locally via Keyboard Power ON (KBPO) if the motherboard supports it. This standby voltage may be generated by a small linear power supply inside the unit or a switching power supply, sharing some components with the main unit to save cost and energy.
+
+First-generationmicrocomputerandhome computerpower supply units used a heavy step-downtransformerand a linear power supply, as used, in for example, theCommodore PETintroduced in 1977. TheApple II, also introduced in 1977, was noted for itsswitched-mode power supply, which was lighter and smaller than an equivalent linear power supply would have been, and which had no cooling fan.  The switched-mode supply uses aferrite-coredhigh frequencytransformer and power transistors that switch thousands of times per second. By adjusting the switching time of the transistor, the output voltage can be closely controlled without dissipating energy as heat in a linear regulator. The development of high-power and high-voltage transistors at economical prices made it practical to introduce switched-mode supplies that had been used in aerospace, mainframes, minicomputers and color television, into desktop personal computers. TheApple IIdesign byAtariengineerRod Holtwas awarded a patent,[3][4]and was in the vanguard of modern computer power supply design. Now all modern computers use switched-mode power supplies, which are lighter, less costly, and more efficient than equivalent linear power supplies.
+
+Computer power supplies may have short circuit protection, overpower (overload) protection, over-voltage protection, under-voltage protection, over-current protection, and over-temperature protection.
+
+Power supplies designed for worldwide use were once equipped with an input voltage selector switch that allowed the user to configure the unit for use on local power grid. In the lower voltage range, around 115 V, this switch is turned on changing the power grid voltage rectifier into a voltage doubler inDelon circuitdesign. As a result, the large primaryfilter capacitorbehind that rectifier was split up into two capacitors wired in series, balanced withbleeder resistorsandvaristorsthat were necessary in the upper input voltage range, around 230 V. Connecting the unit configured for the lower range to a higher-voltage grid usually resulted in immediate permanent damage. When apower-factor correction(PFC) was required, those filter capacitors were replaced with higher-capacity ones, together with a coil installed in series to delay the inrush current. This is the simple design of a passive PFC.
+
+Active PFC is more complex and can achieve higher PF, up to 99%. The first active PFC circuits just delayed the inrush. Newer ones work as an input and output condition-controlled step-up converter, supplying a single 400 V filter capacitor from a wide-range input source, usually between 80 and 240 V. Newer PFC circuits also replace theNTC-based inrush current limiter, which is an expensive part previously located next to the fuse.
+
+The firstIBM PCpower supply unit (PSU) supplied two main voltages: +5Vand +12 V. It supplied two other voltages, −5 V and −12 V, but with limited amounts of power. Mostmicrochipsof the time operated on 5 V power. Of the 63.5Wthese PSUs could deliver, most of it was on this +5 V rail.
+
+The +12 V supply was used primarily to operate motors such as in disk drives and cooling fans. As more peripherals were added, more power was delivered on the 12 V rail. However, since most of the power is consumed by chips, the 5 V rail still delivered most of the power. The −12 V rail was used primarily to provide the negative supply voltage to theRS-232serial ports. A −5 V rail was provided for peripherals on the ISA bus (such as soundcards), but was not used by any motherboard other than the original IBM PC motherboard.
+
+
+--- Source: Reddit-buildapc ---
+Title: Simple Questions - November 26, 2025
+
+Question/Post: This thread is for simple questions that don't warrant their own thread (although we strongly suggest checking the sidebar and the wiki before posting!). Please don't post involved questions that are better suited to a [[Build Help](https://reddit.com/r/buildapc/search?q=title%3A%22build+ready%22+OR+flair%3A%22build+ready%22&amp;restrict_sr=on&amp;sort=new)], [[Build Ready](https://reddit.com/r/buildapc/search?q=title%3A%22build+ready%22+OR+flair%3A%22build+ready%22&amp;restrict_sr=on&amp;sort=new)] or [[Build Complete](https://reddit.com/r/buildapc/search?q=title%3A%22build+complete%22+OR+flair%3A%22build+complete%22&amp;restrict_sr=on&amp;sort=new)] post.  
+Examples of questions suitable for here:
+
+* Is this RAM compatible with my motherboard?
+* I'm thinking of getting a ≤$300 graphics card. Which one should I get?
+* I'm on a very tight budget and I'm looking for a case ≤$50
+
+**Important: Downvotes are strongly discouraged in this thread. Sorting by new is strongly encouraged.**
+
+Have a question about the subreddit or otherwise for r/buildapc mods? [We welcome your mod mail!](http://www.reddit.com/message/compose?to=%2Fr%2Fbuildapc)
+
+To easily find previous simple questions posts, [use this link.](http://www.reddit.com/r/buildapc/search?q=title%3A%22simple+questions%22+author%3A%22AutoModerator%22&amp;restrict_sr=on&amp;sort=new&amp;t=all)
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Seasons of RTX - $5000 Dream PC Build Contest with NVIDIA!
+
+Question/Post: Hope everyone has been keeping warm. Fortunately the colder weather opens up the best time to enjoy PC gaming! See below for more details + entry instructions from NVIDIA for your chance at an up to $5000 USD PC of your design grand prize.
+
+\~\~\~
+
+Hey everyone, 
+
+We’re officially kicking off the GeForce Seasons of RTX! From today through January, celebrate the season with some [great deals ](https://www.nvidia.com/en-us/geforce/campaigns/holiday-deals/)on NVIDIA GeForce RTX 50 Series graphics cards, laptops, desktops, G-SYNC® displays, and GeForce NOW. 
+
+https://preview.redd.it/06lo26ld1v0g1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=b956b8816500bf95b4a56cdab14906a0f964bb7a
+
+[**Seasons of RTX**](https://www.youtube.com/watch?v=KDRVDagdVRY)
+
+To mark the Seasons of RTX, we’re inviting the community to take part in a holiday-themed PC build contest.
+
+**To participate, here is what you will need to do:**
+
+1. Use [PCPartPicker](https://pcpartpicker.com/) to create your build. 
+2. Include a GeForce RTX 50 Series graphics card.
+3. Budget: up to $5,000 USD (including the graphics card)
+4. The build should include the following components: CPU, CPU Cooler, Motherboard, Memory, Storage (e.g., SSD), Case, Power Supply, and a full version of the Windows Operating System. Optional additions include a Monitor, Expansion cards, and Accessories (e.g., Fans, Fan Controller, Optical Drive).
+5. It may NOT include peripherals (e.g., Headphones, Keyboard, Mice, Speakers, Web Camera)  
+6. Optional:
+   1. Make it festive; think lights, themes, or just the ultimate rig you’d love to game on during the holidays.
+7. Post your PC Part Picker build list in the comments section below. (Instructions for how to select the permalink can be found here: [LINK](https://imgur.com/IW0iaOm))
+
+The contest starts on 11/12 and ends on 11/19.
+
+Whether you’re going for maximum performance, cozy holiday vibes, or just a stunning setup for 2026, we can’t wait to see what you create. 
+
+[*Terms and conditions apply*](https://www.nvidia.com/en-us/geforce/contests/seasonsofrtx-build-contest/)  
+
+\~\~\~
+
+All the best to everyone participating! The contest is open in many regions around the world but confirm your locale's eligibility in the [Terms &amp; Conditions](https://www.nvidia.com/en-us/geforce/contests/seasonsofrtx-build-contest/).
+
+Contest window: November 12 2025 @ 12:30PM PT to November 19 2025 @ 5PM PT.
+
+One winner will be selected by the NVIDIA team and contacted through Reddit chat (keep an eye out for a PM from u/NV-Randy
+
+Previous contest winners were announced in the previous thread [HERE](https://www.reddit.com/r/buildapc/comments/1mtwlt7/geforce_rtx_pc_build_contest_share_your_dream_rig/)
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Who is even buying so much ram at these prices?
+
+Question/Post: My go-to local retailer (not US) has actually started selling out ddr5 32gb 6000mhz ram at $400. 3 weeks ago when I bought mine I saw the stock moving at like ~5 sets sold a day at $175, now at $400 they've been selling 30-50 sets a day and barely have anything left. Is Joe Schmoe actually panic buying ram for $400 when it's like 1/3 the price of a pretty good build?
+
+
+
+--- Source: Reddit-buildapc ---
+Title: I purchased a 5090 because dopamine, now I’m building a PC because stupid
+
+Question/Post: So… today escalated fast.
+
+I’ve been thinking about building a new PC for a while, and for whatever reason my brain decided “screw it, buy the 5090 Astral now” and I did.
+
+Yeah.. I randomly impulse bought an RTX 5090 Astral, felt sick and like a god at the same time for 20 minutes, and then my brain immediately went:
+
+„Well, I guess I’m building a full PC now.“
+
+So I fell into a complete build spiral.
+
+I picked up RAM, and before I even processed what I’d done, I had a full PCPartPicker list.
+
+Despite the fact that I barely know what I’m doing and definitely chose half of this stuff based purely on aesthetics and some random YouTube Videos.
+
+
+
+Here’s the part list: [https://de.pcpartpicker.com/list/BKsg8Q](https://de.pcpartpicker.com/list/BKsg8Q)
+
+\+ 6x Lian Li UNI FAN TL Wireless Reverse  
+\+ 1x Lian Li UNI FAN TL
+
+One correction: The AIO I selected on PartPicker isn’t the one I’m actually getting, the correct one is the Lian Li Hydroshift II LCD-S 360TL, I just couldn’t find it in the database yet.
+
+GPU + RAM + AIO are already ordered.  
+  
+What components should I reconsider before I purchase if I want to keep the build clean, dark, high-end, but not financially braindead (if it's not too late for that already lol)?
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Returning to PC gaming after 20 years
+
+Question/Post: After 20 years, I’m finally ready to come back. 
+
+Most of you probably don’t even remember those tragic Radeon 9600 SE series paired with an Athlon XP 2800+ (Barton) and 512mb of RAM. That was my rig back in the day. Money was beyond tight, but it somehow ran the original S.T.A.L.K.E.R., Far Cry, Max Payne or Prince of Persia without completely exploding.
+
+Fast-forward to 2025 and I’m done with consoles (had a PS3 → PS4 → now PS5), My thumbs refuse to aim 😂 
+I missed the precision of mouse + keyboard and that glorious feeling of total freedom. Just want to fire up S.T.A.L.K.E.R. 2 on absolute max settings, veteran difficulty, without my thumbs cramping from a controller.
+
+I’ve been completely out of the loop on CPU/GPU progress for two decades. From what I can tell quickly researching, a Ryzen 7 9800X3D + RTX 5070 Ti (WOW, what a technological leap!!) looks like the sweet spot for high-refresh 1440p or 4K gaming right now. Thoughts? Money isn’t an issue (maybe $2k-ish budget) but… a 5090 for over $2k?? RAM that costs more per gram than gold???!!! Send help! Lol
+
+US-based. I’m comfortable building it myself, I think?, but I’m also fine going pre-built if it’s from a reputable shop. If I go that route, which boutiques actually stand behind their systems with a proper 2+ year warranty (no fly-by-night stuff)?
+
+Appreciate any advice folks! Thanks 
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Worth upgrading from 6700 XT to 9070 XT?
+
+Question/Post: I'm debating whether it's worth upgrading from a 6700 XT to a 9070 XT. Most games I play run fine, except ARC Raiders which also does, but not at super high frame rates (I average around 150 FPS).
+
+Is it worth making this upgrade, or would it just be better to wait until AMD releases their next gen of GPUs?
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Upgrading girlfriend’s pc for xmas
+
+Question/Post: I’m planning on buying some upgrades for my girlfriend’s pc. She loves playing DayZ and RDR2 and recently it’s been really slow and laggy. Here is what she has in her current pc:
+
+CPU: AMD Ryzen 7 1700 Eight-Core
+GPU: NVIDIA GeForce GTX 1650
+RAM: 16GB
+
+I can find out other specs if needed. 
+
+I don’t know much about computers but she says these are pretty outdated. So what would you recommend for her situation? 
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Dropped a screwdriver onto cpu
+
+Question/Post: 
+sooo when I was building my pc I dropped a screwdriver onto the cpu, and now there is a small dent in the front of it (opposite side of the pins). Is this any cause for concern? 
+
+
+
+--- Source: Reddit-buildapc ---
+Title: About Static Wristbands...
+
+Question/Post: Every video I see on static wristbands suggests that I plug in the power supply (turned off) and connect the wristband to the PSU or metallic parts of the case...
+
+But what if the PSU isn't installed yet?
+
+I feel like the PSU would be one of the last components to add- due to the mess of wires, soo how would I be using the wristband in that instance?
+
+Can I still just use a plugged in PSU without the case?
+
+Should i just plug the band directly into the grounding port of any power outlet?
+
+Can I just clip the band to the ungrounded metal and hope for the best?? (half-joking here, lmao)
+
+Perhaps a silly question, but it's curious that I can't find an answer anywhere.
+
+
+
+--- Source: Reddit-buildapc ---
+Title: What's the best CPU/GPU combo for my productivity build?
+
+Question/Post: My use cases will primarily be:
+
+* Engineering Programs - Fusion, Solidworks, Matlab/Simulink, FEA, etc..
+* Graphics Design - Photoshop, Lightroom, Illustrator (albeit might switch over to Affinity). 
+* Video Editing - Davinci Resolve with a focus on Fusion. Usually working with 4K footage.
+* Occasional gaming but really nothing demanding. Perfectly content with 1440p or even 1080p for that matter.
+* AI workloads - Future endeavour.
+
+Primarily working with the info from pugetsystems:
+
+Narrowed it down to
+
+1. RTX 5070TI + Intel Ultra 9 285k
+2. RTX 5070TI + Ryzen 9 9900x
+3. RTX 5070TI + Ryzen 9 9800x3D
+4. RTX 5080 + Intel Ultra 7 265k
+
+So roughly a $1200 budget on those two components. Got everything else already sorted so it's just the CPU/GPU left.
+
+Currently leaning towards to the 1st option.
+
+Been a while since I was invested in PC building so forgive me if I'm missing any up-to-date insights!  
+
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Trying to find a good ssd
+
+Question/Post: I'm looking on getting a new ssd because I'm starting to lack storage and want suggestions. I want this specifically for games. If possible it would preferably be around $100 and my friend said I have a sata slot and no m.2 slot or something ( I have no idea what I'm doing). My friend also suggest a 2tb ssd from Kingspec or the 1tb Samsung 870 evo but I have seen alot of bad reviews on Kingsley while also seeing a lot of good so I'm unsure about it.
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Building my first PC. Opinions?
+
+Question/Post: Hi!
+
+I have a gaming laptop since 2018 with a GTX 1060 6GB. It served me very well for the circumstances, but I would love to experience modern games like they were ment to look and feel. I have a list of parts and would love to hear your opinions about it.
+
+My goal is to be a little bit future proof and not to make to many compromises while not paying to much.
+
+I am at roundabout 1650€ (without keyboard).
+
+CPU: 7800X3D
+
+GPU: RX 9060 16GB (Sapphire Pulse)
+
+RAM: 32 GB (2x16GB) DDR5 6000MHz CL30 (Patriot Viper Venom)
+
+SSD: Samsung 990 PRO 2TB
+
+Tower: Montech XR (black)
+
+CPU fan: Peerless Assasin 120 SE ARGB
+
+Motherboard: Gigabyte B650 Aorus Elite AX V2
+
+PSU: Gigybyte P750GM (750W, 80+gold)
+
+Monitor: 27" AOC Q27G4XF Gaming (IPS, 1440p, 180Hz)
+
+Keyboard: ????
+
+Mousepad: Steel Series QcK (had it before, served me well...)
+
+Mouse: Already have Logitech M500
+
+Some questions:
+
+1. Is my cpu to much for this build? (or good bc future proof?)
+2. Should I invest in a better monitor? (they get expensive quickly...)
+3. How important is the brand of thermal paste?
+4. I have no idea what so ever which keyboard to buy (my old one is trash)... And a mouse upgrade is not necessary, is it?
+5. Is there any reason to buy 2,5'' SSD istead of more M.2?
+6. Am I lucky that 9060 exists since recently or am I unlucky because RAM is so expensive atm? :)
+
+Thanks in advance :)
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Old computer lags while gaming. Time to buy new stuff, but what? Help me friends
+
+Question/Post: Hello. My old ass computer that my friends built me 11 years ago is doing fine with The Sims 4 and watching videos etc (starting to get a little slow on Youtube tho), but I've started to notice quite a bit of lagging on other games. Recently bought Rdr2 on Steam sale (played it on ps4 many years ago&lt;3) and had to immediately drag everything down to medium/high instead of ultra because it could barely render in the whole image for 5 sec in the benchmark tests lol. Still lags every 30 sec.
+
+I'm planning on buying GTA 6 when it comes out too, so I'm wondering what I need to upgrade that is not the WHOLE ass computer, being decently poor as a student, but will also make my baby run rdr2 + GTA 6 smoothly with high/ultra graphics and no lag. One can dream right.
+
+Specs:
+
+Intel Core i7 4790K @ 4 GHz
+
+8 GB Dual-Channel DDr3 @ 799 MHz
+
+Gigabyte Z97X-Gaming 3
+
+NVIDIA GeForce GTX 960 4095 MB.. :')
+
+
+
+I've figured I need to switch up the 960 lol but to what would you recommend? Rather not put more than $200-300 on it.. And for my goals to be decently met, do I need to switch anything else or will the GPU be enough?
+
+Thank you guys in advance from a gal who knows jack shit
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Upgrade to AM5?
+
+Question/Post: My current build has: 
+R5 3600
+16GB Ram 
+Rtx 4060 
+
+I want to upgrade my pc and I don’t know if it is worth it to do a full change to am5. I don’t play competitive games, I mostly play rpgs, story games etc. Examples like Uncharted, tomb raider, red dead redemption, god of war, shadow of Mordor/war etc. I don’t chase the maximum fps like 150+ on max graphics.  I want a good stable system that can give a smooth graphical and performance experience (like playing on high graphics). Should I go to 5800X, and 32 go DDR4, and maybe later on, a 9060XT? Or should I do a total convert to am5? 
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Upgrading from GTX 1080Ti
+
+Question/Post: Hello!
+
+My PC has unfortunately been struggling as of late. I believe it's my beloved GTX 1080Ti that is slowly giving up.
+Currently the setup looks like this
+
+CPU Intel i7-10700k CPU @ 3.80GHz
+Storage SSD 256gb x1 - SSD 465gb x2 - HDD 931gb x1
+Asus Geforce GTX 1080Ti
+MSI MAG Z490 TOMAHAWK
+4x8gb RAM 32gb DDR4
+Corsair HX1000i PSU
+Windows 11
+
+I mostly play Microsoft Flight Simulator 2024.
+Recently been getting into GTA V Enhanced again, but I have to lower the graphics substantially to avoid weird game/pc freezes and crashes.
+My idea is to upgrade to a ASUS GeForce RTX 5070 Ti TUF OC - 16GB GDDR7 RAM
+(Black Friday discount)
+
+Would that help my case or do I have a bottleneck in the other components, which will limit me?
+Any input would be appreciated!
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Looking for some help on how to upgrade, an Omen 25L
+
+Question/Post: So I’ve got an omen 25L that over the past few years I’ve put a 3060 as well as a 750 Watt power supply. But the rest is stock and I’m looking to upgrade from my current i5 CPU and motherboard to something a little more powerful. I’m also looking to replace my case. If anyone has any recommendations for me I’d appreciate it, I’m looking to spend around 500$. And advice would be appreciated!
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Upgrading from 7600 to 7800x3d on asRock mobo?
+
+Question/Post: Long story short, I have a prebuilt that I’m upgrading. The motherboard is an asrock b650m-c. It’s a basic one but I took out the 7600, and plopped in the 7800x3d. Everything is going great but I’m reading that asrock mobos are known to fry the x3d CPUs. Should I be worried about that? Do I need to update bios or something? Everything is working smooth so far 
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Two different pc owners here, Is it worth it to upgrade to 5070ti from either the 4070 super or the 3060ti?
+
+Question/Post: Two separate pc's running 5800X3d. Wanting to see if anyone think it's worth it to upgrade from both the 3060ti to 5070ti and 4070 super to 5070ti. Thanks!
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Which should I upgrade for a Gaming PC?
+
+Question/Post: My current PC build is 7 years old with a mix of old and new parts, and I am considering replacing several components while retaining some of the old ones.
+
+I mainly play in 1080p with a 144Hz monitor, and I have a budget of 500 - 700 USD.
+
+Possible setup for gaming:
+
++ AM4 Motherboard (with Wi-Fi): MSI MAG B550 TOMAHAWK MAX WIFI (replacing ASRock X570 Taichi)
++ GPU (would like to hear recommendations): MSI GeForce RTX 2060 SUPER 8 GB GAMING X
++ CPU: Ryzen 7 5700X3D
++ CPU Cooler: Thermalright Phantom Spirit 120SE (replacing be quiet! Dark Rock Pro 4)
++ RAM: 4 x 16 GB Corsair Vengeance LPX DDR4-3200
++ Storage: Samsung 860 Evo 2 TB
++ PSU: MSI MAG A850GL PCIE5 850 (replacing EVGA SuperNOVA 750 G3)
++ Case: CORSAIR 4000D RS ARGB (replacing NZXT H510)
+
+
+
+--- Source: Reddit-buildapc ---
+Title: About to build my PC — software/BIOS advice appreciated!
+
+Question/Post: Will be building this PC this weekend, anything I should think about software wise? Specific driver, settings to change in BIOS/windows, etc? Thanks!
+
+[PCPartPicker Part List](https://pcpartpicker.com/list/bXyxnp)
+
+Type|Item|Price
+:----|:----|:----
+**CPU** | [AMD Ryzen 7 9800X3D 4.7 GHz 8-Core Processor](https://pcpartpicker.com/product/fPyH99/amd-ryzen-7-9800x3d-47-ghz-8-core-processor-100-1000001084wof) | $449.00 @ Amazon 
+**CPU Cooler** | [ARCTIC Liquid Freezer III Pro A-RGB 360 77 CFM Liquid CPU Cooler](https://pcpartpicker.com/product/Xh9nTW/arctic-liquid-freezer-iii-pro-a-rgb-360-77-cfm-liquid-cpu-cooler-acfre00184a) | $98.99 @ Amazon 
+**Motherboard** | [Asus ROG STRIX B650E-F GAMING WIFI ATX AM5 Motherboard](https://pcpartpicker.com/product/s8nypg/asus-rog-strix-b650e-f-gaming-wifi-atx-am5-motherboard-rog-strix-b650e-f-gaming-wifi) | $223.99 @ Amazon 
+**Memory** | [G.Skill Trident Z5 Neo RGB 32 GB (2 x 16 GB) DDR5-6000 CL30 Memory](https://pcpartpicker.com/product/CXKKHx/gskill-trident-z5-neo-rgb-32-gb-2-x-16-gb-ddr5-6000-cl30-memory-f5-6000j3038f16gx2-tz5nr) | $349.99 @ Amazon 
+**Storage** | [Kingston Fury Renegade 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive](https://pcpartpicker.com/product/FyZ9TW/kingston-fury-renegade-2-tb-m2-2280-nvme-solid-state-drive-sfyrd2000g) | $221.95 @ iBUYPOWER 
+**Video Card** | [Asus PRIME OC Radeon RX 9070 XT 16 GB Video Card](https://pcpartpicker.com/product/WcHp99/asus-prime-oc-radeon-rx-9070-xt-16-gb-video-card-prime-rx9070xt-o16g) | $649.99 @ Amazon 
+**Case** | [Montech AIR 903 BASE ATX Mid Tower Case](https://pcpartpicker.com/product/kKcgXL/montech-air-903-base-atx-mid-tower-case-air-903-base-b) | $59.88 @ Newegg 
+**Power Supply** | [Corsair RM850x (2024) 850 W Fully Modular ATX Power Supply](https://pcpartpicker.com/product/vY4Zxr/corsair-rm850x-2024-850-w-fully-modular-atx-power-supply-cp-9020270-na) | $109.99 @ Newegg 
+ | *Prices include shipping, taxes, rebates, and discounts* |
+ | **Total** | **$2163.78**
+ | Generated by [PCPartPicker](https://pcpartpicker.com) 2025-11-27 15:25 EST-0500 |
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Budget was 2k, but the 5080 was alluring. Does this setup make sense?
+
+Question/Post: I have dcs vr in mind while building this, but other miscellanious games too.
+https://fi.pcpartpicker.com/list/yHPLh7
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Mobo for 7800x3d
+
+Question/Post: Hello guys!
+
+I've finally decided to upgrade my pc to am5 platform with 7800x3d CPU and the main stuck - is to choose motherboard.🙈
+
+The main point - it should be white, so the range of mobos is not so big:)
+
+As I understand, the most suitable are:
+
+Asus rog strix  b850-g - matx
+Gigabyte b850m aorus elite - matx
+
+Asus rig strix b850-a - atx
+Gigabyte b850 airus elite - atx
+
+I have ordered 2 m2 SSD: 9100 pro for pciex5 and 990pro for pciex4😊
+
+And I'll instl my old sata SSD Samsung and GPU 5070ti.
+
+Could you please suggest which mobo is better for making faster ram and cpus? How to choose between them? 👀
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Help me choose parts for a new gaming pc
+
+Question/Post: Hi all,
+
+I'm looking for help to build a new gaming pc as I'm getting confused by all the parts out there.
+
+  
+For a time I was set on 9070 XT and ryzen 7 9800x3d, but I've since started questioning if I should go with the RTX series instead though I've heard the 50 series have done poorly with the exception of the 5090 (which i did consider buying, but it just cost way too much).
+
+  
+So I'm set on the  CPU, I do need advice for the best GPU and MOB as well as a good airflow case. Other advice are also welcome.
+
+  
+I value:
+
+Good airflow
+
+I don't care whether it's a white or black parts build, but white pc's are looking pretty cool
+
+I would like the best pc bang for my buck, but I would like to not have to spend like 4k so I'm pretty open
+
+Wifi and bluetooth are things I'd like
+
+As well as the freedom to be able to  play any game I find interesting without worrying about lag or issues, I play anything from heavy games to fps games like csgo
+
+Thank you in advance
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Can I upgrade my PC or should I just throw it in the trash?
+
+Question/Post: Hello,  
+I was wondering if it was worth trying to upgrade this PC with a budget of around 450-500 euros, I would use it to basically play only League of Legends at 1080p (if possibile at 144fps while having simultaneously spotify open  without my fps dropping under 60 like now xd) and maybe really light video editing. If I could make a build that also allows me to play recent games that would be great but considering my budget I don't have many expectations.
+
+Current setup : 
+
+* Motherboard : Gigabyte AB350M-DS3H V2
+* CPU : Athlon 200ge
+* RAM : 2 x 4 Gb DDR4
+* Storage : SSD Kingston 240gb
+* Psu: 350w
+
+
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Barebones vs custom builds?
+
+Question/Post: I want to buy an home server for my home, its use will be file sharing and backups (either hot or on M-DISC), running some apps (some business software for accounting and bureaucracy), service my multifunction printer, running some CI/CD (like tests that take too long on my laptop).
+
+  
+I see two possible choices:  
+- Buy a barebone, like the Aoostar WTR PRO for around 500 euros
+- Build something custom using high quality components, around 7-900 euros
+
+My fear, maybe out of prejudice, is that the Aoostar will use low quality components and that it will be harder to service in case something breaks. Also a custom build could use better components (more modern CPU, maybe a GPU, proven track record reliability wise).
+
+What would you pick? Save money and go for Aoostar, or build something custom for more flexibility? Are my concerns about the quality of Aoostar valid? 
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Building a Pc for the first time.
+
+Question/Post: I'm wanting to build a Pc with 1440p and targeting atleast 120hz+. the main use will be gaming. I'm looking for recommend parts and builds. Aswell as good tips on how and were to research
+
+I'm new to Pc space so my knowledge on parts and specs are very basic. really only knowing the functions of a part. no knowledge on any brands or versions of parts.
+I'm aware of pcpartpicker.com and will be using that. 
+
+I already have RAM, keyboard, and mouse.
+
+Monitor im looking for 27 inch, 1440p and any hz that above 120hz
+
+Budget: preferably $2,500 but perfectly fine going up to $3000 if needed.
+
+I play a wide range of games. mostly multiplayer games like bf6 and, arc raiders but i play single player games aswell. Only competitive game i really play is Rainbow six seige.
+
+and im 100% aware this is probably the worst time to build a Pc but im fine with that.
+
+If im missing some information thats needed please let me know.
+
+
+
+
+
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Just finished buying everything, howd i do
+
+Question/Post: Happy thanksgiving to some, i just placed my last order for my first ever build and everything is inbound and should be here around December 6th.  
+Super excited how did i do, i think i went crazy and got some nice deals with the paypal 20% off.
+
+\[PCPartPicker Part List\]([https://pcpartpicker.com/list/cqqyv4](https://pcpartpicker.com/list/cqqyv4))
+
+Type|Item|Price
+
+:----|:----|:----
+
+\*\*CPU\*\* | \[AMD Ryzen 7 9800X3D 4.7 GHz 8-Core Processor\]([https://pcpartpicker.com/product/fPyH99/amd-ryzen-7-9800x3d-47-ghz-8-core-processor-100-1000001084wof](https://pcpartpicker.com/product/fPyH99/amd-ryzen-7-9800x3d-47-ghz-8-core-processor-100-1000001084wof)) | Purchased For $404.00
+
+\*\*CPU Cooler\*\* | \[Corsair NAUTILUS 360 RS ARGB 74.37 CFM Liquid CPU Cooler\]([https://pcpartpicker.com/product/DhsV3C/corsair-nautilus-360-rs-argb-7437-cfm-liquid-cpu-cooler-cw-9060093-ww](https://pcpartpicker.com/product/DhsV3C/corsair-nautilus-360-rs-argb-7437-cfm-liquid-cpu-cooler-cw-9060093-ww)) | Purchased For $0.00
+
+\*\*Motherboard\*\* | \[Gigabyte X870E AORUS ELITE WIFI7 ATX AM5 Motherboard\]([https://pcpartpicker.com/product/pLtLrH/gigabyte-x870e-aorus-elite-wifi7-atx-am5-motherboard-x870e-aorus-elite-wifi7](https://pcpartpicker.com/product/pLtLrH/gigabyte-x870e-aorus-elite-wifi7-atx-am5-motherboard-x870e-aorus-elite-wifi7)) | Purchased For $400.00
+
+\*\*Memory\*\* | \[Corsair Vengeance RGB 64 GB (2 x 32 GB) DDR5-6000 CL30 Memory\]([https://pcpartpicker.com/product/WTMMnQ/corsair-vengeance-rgb-64-gb-2-x-32-gb-ddr5-6000-cl30-memory-cmh64gx5m2b6000c30](https://pcpartpicker.com/product/WTMMnQ/corsair-vengeance-rgb-64-gb-2-x-32-gb-ddr5-6000-cl30-memory-cmh64gx5m2b6000c30)) | Purchased For $0.00
+
+\*\*Storage\*\* | \[Western Digital WD\_Black SN850X 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive\]([https://pcpartpicker.com/product/crKKHx/western-digital-wd\_black-sn850x-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-wds200t2x0e](https://pcpartpicker.com/product/crKKHx/western-digital-wd_black-sn850x-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-wds200t2x0e)) | Purchased For $122.58
+
+\*\*Video Card\*\* | \[PNY OC GeForce RTX 5070 Ti 16 GB Video Card\]([https://pcpartpicker.com/product/XRvscf/pny-oc-geforce-rtx-5070-ti-16-gb-video-card-vcg5070t16tfxpb1-o](https://pcpartpicker.com/product/XRvscf/pny-oc-geforce-rtx-5070-ti-16-gb-video-card-vcg5070t16tfxpb1-o)) | Purchased For $594.68
+
+\*\*Case\*\* | \[Montech KING 95 PRO ATX Mid Tower Case\]([https://pcpartpicker.com/product/7qQKHx/montech-king-95-pro-atx-mid-tower-case-king-95-pro-black](https://pcpartpicker.com/product/7qQKHx/montech-king-95-pro-atx-mid-tower-case-king-95-pro-black)) | Purchased For $110.26
+
+\*\*Power Supply\*\* | \[Montech CENTURY II 850 W 80+ Gold Certified Fully Modular ATX Power Supply\]([https://pcpartpicker.com/product/sqbypg/montech-century-ii-850-w-80-gold-certified-fully-modular-atx-power-supply-century-ii-850w](https://pcpartpicker.com/product/sqbypg/montech-century-ii-850-w-80-gold-certified-fully-modular-atx-power-supply-century-ii-850w)) | Purchased For $91.09
+
+\*\*Monitor\*\* | \[Asus ROG Swift OLED PG32UCDM 31.5" 3840 x 2160 240 Hz Monitor\]([https://pcpartpicker.com/product/TGYRsY/asus-rog-swift-oled-pg32ucdm-315-3840-x-2160-240-hz-monitor-pg32ucdm](https://pcpartpicker.com/product/TGYRsY/asus-rog-swift-oled-pg32ucdm-315-3840-x-2160-240-hz-monitor-pg32ucdm)) | Purchased For $710.62
+
+\*\*Mouse\*\* | \[Razer Viper V3 Pro Wireless/Wired Optical Mouse\]([https://pcpartpicker.com/product/sDgrxr/razer-viper-v3-pro-wirelesswired-optical-mouse-rz01-05120100-r3u1](https://pcpartpicker.com/product/sDgrxr/razer-viper-v3-pro-wirelesswired-optical-mouse-rz01-05120100-r3u1)) | Purchased For $79.99
+
+\*\*Custom\*\*| Desky Heavy Duty Ultrawide Monitor Arm| Purchased For $48.91
+
+| \*Prices include shipping, taxes, rebates, and discounts\* |
+
+| \*\*Total\*\* | \*\*$2562.13\*\*
+
+| Generated by \[PCPartPicker\]([https://pcpartpicker.com](https://pcpartpicker.com)) 2025-11-27 15:52 EST-0500 |
+
+
+
+--- Source: Reddit-buildapc ---
+Title: I am buying a rtx 5060ti(16 gig) and R7 7800X3D Does something looks off
+
+Question/Post: This pc costs 1500 dollars(i am from turkey)
+Amd r7 7800X3D, ASUS PRIME B650M-R AMD B650M Socket AM5, mATX DDR5 7000MHZ (OC) M.2 motherboard, INNO3D GEFORCE RTX 5060 TI TWIN X2 OC 16GB DDR7 128Bit DLSS 4 , Gskill 16GB  Ripjaws S5 black Ddr 5 6000Mhz  CL36 1.35V Pc Ram, Crucial 1TB P3 Plus series NVMe M.2 SSD (reading is 5000mb)(writing is 3600mb), Cooler Master MASTERLIQUID ML240L V2 2x120mm  RGB LED liquid cooling system, Xigmatek  Master X ll pro SIYAH ODIN ll 4x120mm RGB Fan 750W 80PLUS MidT ATX Gaming Case( i think the case is bad but i have options 
+1)THERMALTAKE H390 TG 650W  80PLUS BRONZE ARGB 4x120mm Fan MidT ATX black gaming pc adds 32 dollars
+2) Zalman I3 NEO BLACK  Mesh MegaMax  700W 80PLUS 4x120Mm Rgb  Fan MidT Gamer Case add 57 dolars
+3)THERMAL TAKE S250  TG 750W 80 PLUS BRONZE ARGB 4x120mm Fan MidT AtX black gaming case adds 84 dollars
+4)THERMALTAKE S250 TG 750W  80PLUS BRONZE ARGB 4x120mm Fan MidT Atx white gaming case adds 85 dollars
+5) COOLER MASTER MASTERBOX TD500 V2 TG 750W ATX 80PLUS BRONZE  ARGB 4x120mm  Fan Mesh Case
+
+
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Build a PC for me
+
+Question/Post: Could anyone build a pc for me from pcpartpicker? I’m a beginner and my budget would be around $800-$1150
+
+
+
+--- Source: Reddit-buildapc ---
+Title: Factory Refurbished GPUs.
+
+Question/Post: Are these safe to buy? Are they Safer than used gpus? What about 6800/6900xts? I saw [this](https://www.youtube.com/watch?v=TiSXPBqqTKg&amp;t=11s) video saying to stay away from 6800-6900 GPUs. The person posting it is a big GPU repairer.
+
+
+
+--- Source: Newegg-RTX 4090 ---
+Product: ASUS ROG Astral GeForce RTX 5090 32GB GDDR7 OC Edition ROG-ASTRAL-RTX5090-O32G-GAMING DLSS 4.0 PCI Express 5.0 Graphics Card
+Price: $3,359.99–
+Features: Model #:ROG-ASTRAL-RTX5090-O32G-GAMING
+
+
+
+--- Source: Newegg-RTX 4090 ---
+Product: RefurbishedMSI Gaming (MSI) GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 GAMING TRIO 24G
+Price: $2,399.99–
+Features: Model #:MSI RTX 4090 GAMING TRIO 24G
+
+
+
+--- Source: Newegg-RTX 4090 ---
+Product: ASUS TUF Gaming GeForce RTX 4090 OG OC Edition Gaming Graphics Card (PCIe 4.0, 24GB GDDR6X, DLSS 3, HDMI 2.1, DisplayPort 1.4a) TUF-RTX4090-O24G-OG-GAMING
+Price: $3,290.00–
+Features: Model #:TUF-RTX4090-O24G-OG-GAMING
+
+
+
+--- Source: Newegg-RTX 4090 ---
+Product: ASUS ROG Strix GeForce RTX 4090 OC Edition Gaming Graphics Card (PCIe 4.0, 24GB GDDR6X, HDMI 2.1a, DisplayPort 1.4a) ROG-STRIX-RTX4090-O24G-GAMING
+Price: $3,290.00–
+Features: Model #:ROG-STRIX-RTX4090-O24G-GAMING OC
+
+
+
+--- Source: Newegg-RTX 4090 ---
+Product: GIGABYTE GeForce RTX 4090 WINDFORCE V2 24G Graphics Card, 3x WINDFORCE Fans, 24GB 384-bit GDDR6X, GV-N4090WF3V2-24GD Video Card
+Price: $3,195.00–
+Features: Model #:GV-N4090WF3V2-24GD
+
+
+
+--- Source: Newegg-RTX 4090 ---
+Product: MSI Suprim GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Graphics Card RTX 4090 SUPRIM LIQUID X 24G
+Price: $3,248.00–
+Features: Model #:RTX 4090 SUPRIM LIQUID X 24G
+
+
+
+--- Source: Newegg-RTX 4090 ---
+Product: ASUS ROG Strix GeForce RTX 4090 White OC Edition Gaming Graphics Card (PCIe 4.0, 24GB GDDR6X, HDMI 2.1a, DisplayPort 1.4a) ROG-STRIX-RTX4090-O24G-WHITE
+Price: $3,395.00–
+Features: Model #:ASUS ROG-STRIX-RTX4090-O24G-WHITE OC 01
+
+
+
+--- Source: Newegg-RTX 4090 ---
+Product: MSI Gaming (MSI) GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 GAMING X TRIO 24G
+Price: $3,095.00–
+Features: Model #:MSI RTX 4090 GAMING X TRIO 24G
+
+
+
+--- Source: Newegg-RTX 4090 ---
+Product: GIGABYTE WindForce GeForce RTX 5060 Ti 16GB GDDR7 PCI Express 5.0 x8 ATX Graphics Card GV-N506TWF2OC-16GD
+Price: $429.99–
+Features: Model #:GV-N506TWF2OC-16GD
+
+
+
+--- Source: Newegg-RTX 4090 ---
+Product: ASUS ROG Strix GeForce RTX 4090 White OC Edition Gaming Graphics Card (PCIe 4.0, 24GB GDDR6X, HDMI 2.1a, DisplayPort 1.4a) ROG-STRIX-RTX4090-O24G-WHITE
+Price: $3,395.00–
+Features: Model #:ROG-STRIX-RTX4090-O24G-WHITE-001
+
+
+
+--- Source: Newegg-Intel Core i9 ---
+Product: Intel Core i9-14900K - Core i9 14th Gen 24-Core (8P+16E) LGA 1700 125W Intel UHD Graphics 770 Desktop Processor - Boxed - BX8071514900K
+Price: $438.97–
+Features: Model #:BX8071514900K
+
+
+
+--- Source: Newegg-Intel Core i9 ---
+Product: Intel Core i9-14900KF - Core i9 14th Gen 24-Core (8P+16E) LGA 1700 125W None Integrated Graphics Processor - Boxed - BX8071514900KF
+Price: $441.99–
+Features: Model #:BX8071514900KF
+
+
+
+--- Source: Newegg-Intel Core i9 ---
+Product: Intel Core i9-12900K - Core i9 12th Gen Alder Lake 16-Core (8P+8E) 3.2 GHz LGA 1700 125W Intel UHD Graphics 770 Desktop Processor - BX8071512900K
+Price: $309.99–
+Features: Model #:BX8071512900K
+
+
+
+--- Source: Newegg-Intel Core i9 ---
+Product: Intel Core i9-12900KF - Core i9 12th Gen Alder Lake 16-Core (8P+8E) 3.2 GHz LGA 1700 125W Desktop Processor - BX8071512900KF
+Price: $279.99–
+Features: Model #:BX8071512900KF
+
+
+
+--- Source: Newegg-Intel Core i9 ---
+Product: Intel Core i9-14900 - Core i9 14th Gen Raptor Lake 24-Core (8P+16E) LGA 1700 65W Intel UHD Graphics 770 Processor - BX8071514900
+Price: $569.99–
+Features: Model #:BX8071514900
+
+
+
+--- Source: Newegg-Intel Core i9 ---
+Product: Intel Core i9-14900KS - Core i9 14th Gen Raptor Lake 24-Core (8P+16E) Performance-core 3.2 GHz, Efficient-core 2.4 GHz LGA 1700 150W Intel UHD Graphics 770 Desktop CPU (Retail Box)
+Price: $599.00–
+Features: Model #:BX8071514900KS
+
+
+
+--- Source: Newegg-Intel Core i9 ---
+Product: Intel Core i9-12900KS - Core i9 12th Gen Alder Lake 16-Core (8P+8E) 3.4 GHz LGA 1700 150W Intel UHD Graphics 770 Desktop Processor - BX8071512900KS
+Price: $289.99–
+Features: Model #:BX8071512900KS
+
+
+
+--- Source: Newegg-Intel Core i9 ---
+Product: Intel Core i9-13900K - Core i9 13th Gen Raptor Lake 24-Core (8P+16E) P-core Base Frequency: 3.0 GHz E-core Base Frequency: 2.2 GHz LGA 1700 125W Intel UHD Graphics 770 Desktop CPU Processor - BX807151
+Price: $523.11–
+Features: Model #:BX8071513900K
+
+
+
+--- Source: Newegg-Intel Core i9 ---
+Product: Intel Xeon W 3300 W-3375 Octatriaconta-core (38 Core) 2.50 GHz Processor - OEM Pack - 57 MB L3 Cache - 64-bit Processing - 4 GHz Overclocking Speed - 10 nm - Socket LGA-4189 - 270 W - 76 Threads
+Price: $5,941.11–
+Features: Model #:CD8068904691401
+
+
+
+--- Source: Newegg-Intel Core i9 ---
+Product: Intel Core i9-12900 - Core i9 12th Gen Alder Lake 16-Core (8P+8E) 2.4 GHz LGA 1700 Processor 65W Intel UHD Graphics 770 Desktop Processor - BX8071512900
+Price: $419.97–
+Features: Model #:BX8071512900
+
+
+
+--- Source: Newegg-DDR5 RAM ---
+Product: G.SKILL Trident Z5 Royal Neo Series 32GB (2 x 16GB) 288-Pin PC RAM DDR5 6000 (PC5 48000) Desktop Memory Model F5-6000J2836G16GX2-TR5NS
+Price: $379.99–
+Features: CAS Latency:CL28 Voltage:1.40V Multi-channel Kit:Dual Channel Kit Timing:28-36-36-96 Model #:F5-6000J2836G16GX2-TR5NS
+
+
+
+--- Source: Newegg-DDR5 RAM ---
+Product: Team Group 16GB (2 x 8GB) 288-Pin PC RAM DDR5 6000 (PC5 48000) Memory Model FF4D516G6000HC38ADC01
+Price: $129.99–
+Features: CAS Latency:CL38 Voltage:1.25V Multi-channel Kit:Dual Channel Kit Timing:38-38-38-78 Model #:FF4D516G6000HC38ADC01
+
+
+
+--- Source: Newegg-DDR5 RAM ---
+Product: Team Group 16GB (2 x 8GB) 288-Pin PC RAM DDR5 6000 (PC5 48000) Memory Model FF3D516G6000HC38ADC01
+Price: $129.99–
+Features: CAS Latency:CL38 Voltage:1.25V Multi-channel Kit:Dual Channel Kit Timing:38-38-38-78 Model #:FF3D516G6000HC38ADC01
+
+
+
+--- Source: Newegg-DDR5 RAM ---
+Product: CORSAIR Vengeance RGB 32GB (2 x 16GB) 288-Pin PC RAM DDR5 6000 (PC5 48000) Desktop Memory Model CMH32GX5M2E6000C36
+Price: $409.99–
+Features: CAS Latency:CL36 Voltage:1.40V Multi-channel Kit:Dual Channel Kit Timing:36-44-44-96 Model #:CMH32GX5M2E6000C36
+
+
+
+--- Source: Newegg-DDR5 RAM ---
+Product: G.SKILL Trident Z5 Neo RGB Series 64GB (2 x 32GB) 288-Pin PC RAM DDR5 6000 (PC5 48000) Desktop Memory Model F5-6000J3040G32GX2-TZ5NR
+Price: $599.99–
+Features: CAS Latency:CL30 Voltage:1.40V Multi-channel Kit:Dual Channel Kit Timing:30-40-40-96 Model #:F5-6000J3040G32GX2-TZ5NR
+
+
+
+--- Source: Newegg-DDR5 RAM ---
+Product: G.SKILL Trident Z5 Neo Series 64GB (2 x 32GB) 288-Pin PC RAM DDR5 6000 (PC5 48000) Desktop Memory Model F5-6000J3040G32GX2-TZ5N
+Price: $579.99–
+Features: CAS Latency:CL30 Voltage:1.40V Multi-channel Kit:Dual Channel Kit Timing:30-40-40-96 Model #:F5-6000J3040G32GX2-TZ5N
+
+
+
+--- Source: Newegg-DDR5 RAM ---
+Product: G.SKILL Flare X Series 64GB (2 x 32GB) 288-Pin PC RAM DDR5 6000 (PC5 48000) Desktop Memory Model F5-6000J3040G32GX2-FX5
+Price: $569.99–
+Features: CAS Latency:CL30 Voltage:1.40V Multi-channel Kit:Dual Channel Kit Timing:30-40-40-96 Model #:F5-6000J3040G32GX2-FX5
+
+
+
+--- Source: Newegg-DDR5 RAM ---
+Product: G.SKILL Trident Z5 Neo RGB Series 128GB (2 x 64GB) 288-Pin PC RAM DDR5 6000 (PC5 48000) Desktop Memory Model F5-6000J3444F64GX2-TZ5NR
+Price: $929.99–
+Features: CAS Latency:CL34 Voltage:1.35V Multi-channel Kit:Dual Channel Kit Timing:34-44-44-96 Model #:F5-6000J3444F64GX2-TZ5NR
+
+
+
+--- Source: Newegg-DDR5 RAM ---
+Product: Patriot 16GB 288-Pin PC RAM DDR5 5600 (PC5 44800) Desktop Memory Model PVVR516G56C36
+Price: $154.99–
+Features: CAS Latency:CL36 Voltage:1.10V Brand:Patriot Capacity:16GB Model #:PVVR516G56C36
+
+
+
+--- Source: Newegg-DDR5 RAM ---
+Product: CORSAIR Vengeance RGB 32GB (2 x 16GB) 288-Pin PC RAM DDR5 6000 (PC5 48000) Desktop Memory Model CMH32GX5M2E6000C36W
+Price: $409.99–
+Features: CAS Latency:CL36 Voltage:1.40V Multi-channel Kit:Dual Channel Kit Timing:36-44-44-96 Model #:CMH32GX5M2E6000C36W
+
+
+
+--- Source: Newegg-NVMe SSD ---
+Product: SAMSUNG 990 PRO 2TB SSD, PCIe Gen4 M.2 2280, Seq. Read Speeds Up-to 7,450MB/s for High End Computing, Gaming, and Heavy Duty Workstations (MZ-V9P2T0B/AM) Non-Heatsink
+Price: $169.99–
+Features: Model #:MZ-V9P2T0B/AM
+
+
+
+--- Source: Newegg-NVMe SSD ---
+Product: SAMSUNG SSD 9100 PRO 4TB, PCIe 5.0x4 M.2 2280, Seq. Read Speeds Up to 14,800MB/s, Best for AI Computing, Gaming, and Heavy Duty Workstations (MZ-VAP4T0B/AM)
+Price: $369.99–
+Features: Model #:MZ-VAP4T0B/AM
+
+
+
+--- Source: Newegg-NVMe SSD ---
+Product: Team Group T-FORCE G50 M.2 2280 512GB PCIe 4.0 x4 with NVMe 1.4 TLC Internal Solid State Drive (SSD) TM8FFE512G0C129
+Price: $39.99–
+Features: Model #:TM8FFE512G0C129
+
+
+
+--- Source: Newegg-NVMe SSD ---
+Product: SK hynix Platinum P51 1TB PCIe Gen5 NVMe M.2 2280 Internal SSD I Up to 14,700 MB/s Read, 13,400 MB/s Write I Powered by 238-Layer NAND Flash
+Price: $119.99–
+Features: Model #:HFS1T0GFM9X1902
+
+
+
+--- Source: Newegg-NVMe SSD ---
+Product: KingSpec XG 7000 4TB M.2 2280 PCIe Gen 4.0x4 NVME 1.4 Speed up to 7400MB/s Write Speed Up to 6600MB/s Internal Solid State Drive for PS5 PC Desktop Laptop Game-Player Non-Heatsink
+Price: $229.99–
+Features: Model #:XG 7000-4TB
+
+
+
+--- Source: Newegg-NVMe SSD ---
+Product: Adata Legend 710 256GB NVMe M.2 2280 SSD (Read up to 2100MB/s and Write up to 1000MB/s)
+Price: $39.00–
+Features: Model #:Legend 710
+
+
+
+--- Source: Newegg-NVMe SSD ---
+Product: SAMSUNG SSD 9100 PRO 2TB, PCIe 5.0x4 M.2 2280, Seq. Read Speeds Up to 14,800MB/s, Best for AI Computing, Gaming, and Heavy Duty Workstations (MZ- VAP2T0B/AM)
+Price: $199.99–
+Features: Model #:MZ-VAP2T0B/AM
+
+
+
+--- Source: Newegg-NVMe SSD ---
+Product: WD_BLACK 2TB SN850X NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, Up to 7,300 MB/s - WDS200T2X0E
+Price: $169.99–
+Features: Model #:WDS200T2X0E
+
+
+
+--- Source: Newegg-NVMe SSD ---
+Product: SK hynix Platinum P51 1TB PCIe Gen5 NVMe M.2 2280 Internal SSD I Up to 14,700 MB/s Read, 13,400 MB/s Write I Powered by 238-Layer NAND Flash
+Price: $119.99–
+Features: Model #:HFS1T0GFM9X1902
+
+
+
+--- Source: Newegg-NVMe SSD ---
+Product: WD_BLACK 1TB SN850X NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, Up to 7,300 MB/s - WDS100T2X0E
+Price: $108.99–
+Features: Model #:WDS100T2X0E
+
+
